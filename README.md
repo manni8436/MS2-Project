@@ -84,18 +84,9 @@ a second bug below was found due to the issue above
 
 ![uncaught type error box style is undefined](assets/docs/uncaughttypeerrorboxstyleisundefined.png)
 
-after looking closely at these bugs, I had to change my for loop inside the function, I have added images and the solution code for documentation.
+after looking closely at these bugs, I had to change my for loop inside the function, I have added error images above and the solution code below for documentation.
 
-`const boxes = document.getElementsByClassName("box");`
-`console.log(boxes);`
-
-`function boxFlip() {`
-    `for (let i = 0; i < boxes.length; i++) {`
-    `boxes[i].style.backgroundColor = "purple";`
-    `console.log(boxes[i]);`
-    `}`
-`}`
-
+![solution code](assets/docs/solutioncode.png)
 
 ## TECHNOLOGIES USED
 
