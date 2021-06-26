@@ -2,10 +2,10 @@ Milestone Project: Interactive Frontend Development
 
 # MS2-Project - 
 
-![GitHub contributors](https://img.shields.io/github/contributors/manni8436/MS1-Project)
-![GitHub last commit](https://img.shields.io/github/last-commit/manni8436/MS1-Project)
-![GitHub language count](https://img.shields.io/github/languages/count/manni8436/MS1-Project)
-![GitHub top language](https://img.shields.io/github/languages/top/manni8436/MS1-Project)
+![GitHub contributors](https://img.shields.io/github/contributors/manni8436/MS2-Project)
+![GitHub last commit](https://img.shields.io/github/last-commit/manni8436/MS2-Project)
+![GitHub language count](https://img.shields.io/github/languages/count/manni8436/MS2-Project)
+![GitHub top language](https://img.shields.io/github/languages/top/manni8436/MS2-Project)
 
 [Here is a link to the final project]() <!--add deployed link to once deployed-->
 
