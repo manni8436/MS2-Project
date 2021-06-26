@@ -2,26 +2,45 @@ Milestone Project: Interactive Frontend Development
 
 # MS2-Project - 
 
+![GitHub contributors](https://img.shields.io/github/contributors/manni8436/MS1-Project)
+![GitHub last commit](https://img.shields.io/github/last-commit/manni8436/MS1-Project)
+![GitHub language count](https://img.shields.io/github/languages/count/manni8436/MS1-Project)
+![GitHub top language](https://img.shields.io/github/languages/top/manni8436/MS1-Project)
 
-<h1>UX</h1>
+[Here is a link to the final project]() <!--add deployed link to once deployed-->
 
+## INITIAL DESIGN
 
-<h1>Features</h1>
+## FINAL DESIGN
 
+![Final project image home page]() <!--add image after project has been completed-->
 
-<h1>Testing</h1>
+## CONTENTS
 
+* [User Experience](#USER-EXPERIENCE-(UX))  
+    * [User Stories](#USER-STORIES)    
 
-<h1>Technologies Used</h1>
+* [Design](#DESIGN)   
+    * [Color Scheme](#COLOR-SCHEME)
 
-    
-<h1>Deployment</h1>
+* [Wireframes](#WIREFRAMES) 
 
+* [Technologies Used](#TECHNOLOGIES-USED) 
+    * [Languages Used](#LANGUAGES-USED)
+    * [Programs Used](#PROGRAMS-USED)
 
-<h1>Content</h1>
+* [Deployment](#DEPLOYMENT)
+    * [Initial Deployment](#INITIAL-DEPLOYMENT)
+    * [How To Fork A Repository](#HOW-TO-FORK-A-REPOSITORY)
+    * [How To Clone A Repository](#HOW-TO-CLONE-A-REPOSITORY)
+    * [How To Make A Local Clone](#HOW-TO-MAKE-A-LOCAL-CLONE)
 
-    
-<h1>Media</h1>
+* [Testing](#TESTING)
+    * [Code Validators](#CODE-VALIDATORS)
 
-        
-<h1>Acknowledgements</h1>
+* [Content](#CONTENT)
+    * [Images](#IMAGES)
+    * [Text Content](#TEXT-CONTENT)
+
+* [Acknowledgements](#ACKNOWLEDGEMENTS)    
+
