@@ -70,6 +70,33 @@ The main features that I wanted to include are:
 
 ## SOLVED BUGS
 
+While trying to get my functionallity working in javascript, a bug was found and upon looking into the console the error below was given.
+
+Uncaught ReferenceError: can't access lexical declaration 'boxes' before initialization
+    boxFlip https://8000-magenta-gamefowl-xn8zf817.ws-eu09.gitpod.io/assets/js/script.js:4
+    onclick https://8000-magenta-gamefowl-xn8zf817.ws-eu09.gitpod.io/:1
+
+![html code](assets/docs/htmlcode.png) 
+![javascript code](assets/docs/jscode.png) 
+![condole log](assets/docs/consolelog.png)
+
+a second bug below was found due to the issue above
+
+![uncaught type error box style is undefined](assets/docs/uncaughttypeerrorboxstyleisundefined.png)
+
+after looking closely at these bugs, I had to change my for loop inside the function, I have added images and the solution code for documentation.
+
+`const boxes = document.getElementsByClassName("box");`
+`console.log(boxes);`
+
+`function boxFlip() {`
+    `for (let i = 0; i < boxes.length; i++) {`
+    `boxes[i].style.backgroundColor = "purple";`
+    `console.log(boxes[i]);`
+    `}`
+`}`
+
+
 ## TECHNOLOGIES USED
 
 ### LANGUAGES USED

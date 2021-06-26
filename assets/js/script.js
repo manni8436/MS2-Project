@@ -1,8 +1,9 @@
-const boxes = getElementsByClassName("box");
-console.log(boxes)
+const boxes = document.getElementsByClassName("box");
+console.log(boxes);
 
 function boxFlip() {
-    for (box in boxes) {
-    box.style.backgroundColor = "purple";
+    for (let i = 0; i < boxes.length; i++) {
+    boxes[i].style.backgroundColor = "purple";
+    console.log(boxes[i]);
     }
 }
