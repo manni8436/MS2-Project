@@ -157,8 +157,8 @@ The W3C Markup Validator and W3C CSS Validator was used to validate my project t
     * [HTML]( ) <!--fill in this section once the project has been completed and checked in the validator-->
 * W3C CSS Validator Results
     * [CSS]( ) <!--fill in this section once the project has been completed and checked in the validator-->
-* JSHint Results    
-    * [JavaScript]( ) <!--fill in this section once the project has been completed and checked in the validator-->    
+* JavaScript Validator
+    * ![JSHint]( ) <!--fill in this section once the project has been completed and checked in the validator-->    
 
 ### FULL TESTING
 
