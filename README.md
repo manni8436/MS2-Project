@@ -11,6 +11,12 @@ Milestone Project: Interactive Frontend Development
 
 ## INITIAL DESIGN
 
+My initial idea for this project was to create a fun, interactive card matching game with a Egyptian theme that can be enjoyed by anyone. My target 
+audience is anyone who is interested in games and also Egyptian Mythology. The target demographic is incredibly mixed and covers people of all ages and genders.
+
+The main features that I wanted to include are:
+
+
 ## FINAL DESIGN
 
 ![Final project image home page]() <!--add image after project has been completed-->
@@ -46,29 +52,21 @@ Milestone Project: Interactive Frontend Development
 
 ## USER EXPERIENCE (UX)
 
-
 ## USER STORIES
-
 
 #### CLIENT GOALS
 
-
 #### FIRST TIME VISITORS
-
 
 ## DESIGN
 
-
 ## COLOR SCHEME
-
 
 ## WIREFRAMES
 
 ## FEATURES
 
-
 ## SOLVED BUGS
-
 
 ## TECHNOLOGIES USED
 
@@ -79,7 +77,6 @@ src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordm
 alt="CSS logo" width="50px" height="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" 
 alt="JavaScript logo" width="50px" height="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/bootstrap/bootstrap-plain-wordmark.svg" 
 alt="Bootstrap logo" height="50px" width="50px" />   
-
 
 ### PROGRAMS USED
 
@@ -100,7 +97,6 @@ Balsamiq was used in the initial design process to make wireframes.
 
 #### Firefox Developer Tools:
 Firefox Developer Tools was used for trouble shooting and trying new visual changes without it affect the current code already created.
-
 
 ## DEPLOYMENT:
 
@@ -151,7 +147,6 @@ If you need to make a local clone:
 7. Type git clone and then paste the URL you copied in step 4.
 8. Press Enter, and your local clone will be created.
 
-
 ## TESTING
 
 ### CODE VALIDATORS
@@ -174,7 +169,6 @@ The W3C Markup Validator and W3C CSS Validator was used to validate my project t
 * I tested my website using Firefox Developer Tools Lighthouse feature, and received the results below:
 
 ### DESKTOP
-
 
 ### MOBILE
 
