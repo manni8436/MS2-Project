@@ -64,7 +64,7 @@ The main features that I wanted to include are:
 
 ## WIREFRAMES
 
-[Here are my wireframes for desktop, mobile and tablet for this project](assets/images/wireframes/MSProject2wireframes.pdf)
+[Here are my wireframes for desktop, mobile and tablet for this project](assets/wireframes/MSProject2wireframes.pdf)
 
 ## FEATURES
 
