@@ -70,7 +70,7 @@ The main features that I wanted to include are:
 
 ## SOLVED BUGS
 
-While trying to get my functionallity working in javascript, a bug was found and upon looking into the console the error below was given.
+While trying to get my javascript functionality working, a bug was found and upon looking into the console the error below was given.
 
 Uncaught ReferenceError: can't access lexical declaration 'boxes' before initialization
     boxFlip https://8000-magenta-gamefowl-xn8zf817.ws-eu09.gitpod.io/assets/js/script.js:4
