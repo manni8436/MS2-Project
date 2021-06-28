@@ -1,13 +1,15 @@
 const boxes = document.getElementsByClassName("box");
-console.log(boxes);
+    console.log(boxes);
 
 function boxFlip() {
-    for (let i = 0; i < boxes.length; i++) {
-        if (boxes[i].style.backgroundColor = "red") {
-            boxes[i].style.backgroundColor = "purple";
+   for (let i = 0; i < boxes.length; i++) {
+        if (boxes[i].classList.contains("box-purple")) {
+            boxes[i].classList.add("box-red");
+            boxes[i].classList.remove("box-purple");
         } else {
-            boxes[i].style.backgroundColor = "red";
+            boxes[i].classList.add("box-purple");
+            boxes[i].classList.remove("box-red");
         }
-        console.log(boxes[i].style.backgroundColor);
     } 
 }
+
