@@ -1,10 +1,9 @@
 body {
     background-color: #202020;
-    margin: 0;
-    padding: 0;
 }
 
-.box-purple {
+.box-front {
+    background-image: url('../image/GlyphA.jpg');
     background-color: purple;
     height: 100px;
     width: 100px;
@@ -12,8 +11,9 @@ body {
     border-radius: 20px;
 }
 
-.box-red {
-    background-color: red;
+.box-back {
+    background-image: url('../image/GlyphG.jpg');
+    background-color: green;
     height: 100px;
     width: 100px;
     margin: 50px 50px;
