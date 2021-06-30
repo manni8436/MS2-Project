@@ -5,17 +5,19 @@ body {
 .box-front {
     background-image: url('../image/GlyphA.jpg');
     background-color: purple;
+    display: inline-block;
     height: 100px;
     width: 100px;
-    margin: 50px 50px;
+    margin: 20px 20px;
     border-radius: 20px;
 }
 
 .box-back {
     background-image: url('../image/GlyphG.jpg');
     background-color: green;
+    display: inline-block;
     height: 100px;
     width: 100px;
-    margin: 50px 50px;
+    margin: 20px 20px;
     border-radius: 20px;
 }

@@ -85,6 +85,22 @@ after looking closely at these bugs, I had to change my for loop inside the func
 
 ![solution code](assets/docs/solutioncode.png)
 
+3. A bug was found when additional boxes were added, the bug itself seems to be highlighting inbetween the tiles, click once and its one small area is highlighted
+but if you click again then multiple areas get highlighted.
+
+![highlighting bug](assets/docs/highlightingbug.png)
+
+To try to resolve this bug, I have tried the following `whitespace: nowrap`, `white-space: unset;`, `white-space: normal;` and `white-space: pre-wrap;` 
+
+also tried to use the JQuery code below.
+
+`$('.box-front').contents().filter(function(){`
+    `return this.nodeType == 3;`
+`}).remove();`
+
+
+none have worked as of yet.
+
 ## TECHNOLOGIES USED
 
 ### LANGUAGES USED
