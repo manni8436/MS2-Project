@@ -24,3 +24,7 @@ function randomiseBoxOrder() {
     let randomNumber = Math.floor(Math.random() * amountOfBoxes); // Gets a random number between 0 and the total number of boxes
     currentBox = boxes[`${randomNumber}`]; // Finds a box in the boxes with that index number
 }
+
+`$('.box-front').contents().filter(function(){`
+    `return this.nodeType == 3;`
+`}).remove();`
