@@ -19,8 +19,8 @@
       "**/core.python*": true,
       "**/CVS": true
    },
-   "files.autoSave": "off",
-   "workbench.colorTheme": "Visual Studio Dark",
+   "files.autoSave": "afterDelay",
+   "workbench.colorTheme": "Sublime VSCode Theme",
 "editor.defaultFormatter": "HookyQR.beautify",
 "editor.autoSave": "on"
 }

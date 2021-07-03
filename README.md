@@ -1,6 +1,6 @@
 Milestone Project: Interactive Frontend Development 
 
-# MS2-Project - 
+# MS2-Project - Pharaoh`s Match
 
 ![GitHub contributors](https://img.shields.io/github/contributors/manni8436/MS2-Project)
 ![GitHub last commit](https://img.shields.io/github/last-commit/manni8436/MS2-Project)

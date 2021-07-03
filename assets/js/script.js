@@ -13,11 +13,6 @@ function boxFlip() {
     } 
 }
 
-const images = [
-        ["assets/image/GlyphA.jpg", "ALT-HERE", "box-purple"],
-        ["assets/image/GlyphG.jpg", "ALT-HERE", "box-red"],
-    ];
-
 function randomiseBoxOrder() {
     amountOfBoxes = boxes.length;
 
@@ -25,6 +20,21 @@ function randomiseBoxOrder() {
     currentBox = boxes[`${randomNumber}`]; // Finds a box in the boxes with that index number
 }
 
-`$('.box-front').contents().filter(function(){`
-    `return this.nodeType == 3;`
-`}).remove();`
+const tileImages = [
+    ["assets/image/glypha.jpg", "hieroglyphs letter a"],
+    ["assets/image/glypha.jpg", "hieroglyphs letter a"],
+    ["assets/image/glyphd.jpg", "hieroglyphs letter d"],
+    ["assets/image/glyphd.jpg", "hieroglyphs letter d"],
+    ["assets/image/glyphf.jpg", "hieroglyphs letter f"],
+    ["assets/image/glyphf.jpg", "hieroglyphs letter f"],
+    ["assets/image/glyphg.jpg", "hieroglyphs letter g"],
+    ["assets/image/glyphg.jpg", "hieroglyphs letter g"],
+    ["assets/image/glyphh.jpg", "hieroglyphs letter h"],
+    ["assets/image/glyphh.jpg", "hieroglyphs letter h"],
+    ["assets/image/glyphi.jpg", "hieroglyphs letter i"],
+    ["assets/image/glyphi.jpg", "hieroglyphs letter i"]
+    ["assets/image/glyphj.jpg", "hieroglyphs letter j"],
+    ["assets/image/glyphj.jpg", "hieroglyphs letter j"],
+    ["assets/image/glyphk.jpg", "hieroglyphs letter k"],
+    ["assets/image/glyphk.jpg", "hieroglyphs letter k"]
+];
