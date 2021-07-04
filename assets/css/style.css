@@ -2,12 +2,19 @@ body {
     background-color: #202020;
 }
 
-/*
-    background-color: purple;
+.card-front {
     display: inline-block;
     height: 100px;
     width: 100px;
     margin: 20px 20px;
     border-radius: 20px;
     border: 3px red solid;
-*/
+} 
+
+.card-back {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin: 20px 20px;
+    border-radius: 20px;
+    border: 3px red solid;
