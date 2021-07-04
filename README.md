@@ -98,6 +98,9 @@ also tried to use the JQuery code below.
 
 none have worked as of yet.
 
+4. While doing some JavaScript functionality and upon getting my onclick randomisation function to work a bug was found which made my onclick function stop working, 
+![randomcolorbug](assets/docs/randomcolorbug.png)
+
 ## TECHNOLOGIES USED
 
 ### LANGUAGES USED

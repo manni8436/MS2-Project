@@ -24,8 +24,6 @@ const colorArray = [
 colorArray.sort(() => 0.5 - Math.random());
 
 //add random colors to cards
-const randomcolorcards = document.getElementsByClassName('card');
-
 for (let i = 0; i < colorArray.length; i++){
     cards[i].style.backgroundColor = colorArray[i];
 }
