@@ -1,19 +1,23 @@
 // makes cards flip
 const cards = document.getElementsByClassName("card");
 
-function flipCard() {
-   for (let i = 0; i < cards.length; i++) {
-        if (cards[i].classList.contains("card-front")) {
-            cards[i].classList.add("card-back");
-            cards[i].classList.remove("card-front");
-        } else {
-            cards[i].classList.add("card-front");
-            cards[i].classList.remove("card-back");
-        }
-    } 
+for (var i = 0; i < cards.length; i++) {
+    cards[i].addEventListener("click", flipCard(cards[i]));
 }
 
-// make cards random
+function flipCard(card) {
+    if (card.classList.contains("card-front")) {
+        card.classList.add("card-back");
+        card.classList.remove("card-front");
+    } else if (card.classList.contains("card-back")) {
+        card.classList.add("card-front");
+        card.classList.remove("card-back");
+    } else {
+        console.log("Oh no!");
+    }
+}
+
+//add random colors to cards
 const colorArray = [
         '#FF6633', '#FFB399', '#FF33FF', '#FFFF99', '#00B3E6', 
 		'#E6B333', '#3366E6', '#999966', '#99FF99', '#B34D4D',
@@ -23,7 +27,18 @@ const colorArray = [
 
 colorArray.sort(() => 0.5 - Math.random());
 
-//add random colors to cards
 for (let i = 0; i < colorArray.length; i++){
     cards[i].style.backgroundColor = colorArray[i];
 }
+
+
+
+//function flipCard() {
+    //if (card.classList.contains("card-front")) {
+       // card.classList.add("card-back");
+     //   card.classList.remove("card-front");
+   // } else {
+      //  card.classList.add("card-front");
+    //    card.classList.remove("card-back");
+  //  }
+//}
