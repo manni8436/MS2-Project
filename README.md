@@ -98,10 +98,15 @@ also tried to use the JQuery code below.
 
 none have worked as of yet.
 
-4. While doing some JavaScript functionality and upon getting my onclick randomisation function to work a bug was found which made my onclick function stop working, 
+4. While trying to get my JavaScript functionality and upon getting my onclick randomisation function to work a bug was found which made my onclick function stop working which are below.
+
 ![random color bug code](assets/docs/randomcolorbugcode.png)
 
 ![random color bug](assets/docs/randomcolorbug.png)
+
+at first I thought that this was a randomisation bug but after trying a few combinations of functions and loops I have realised that infact this is was a onclick bug and a solution code has been found for this bug.
+
+![solution code for onclick bug](assets/docs/onclickbugsolutioncode.png)
 
 ## TECHNOLOGIES USED
 
