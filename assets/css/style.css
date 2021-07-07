@@ -10,9 +10,3 @@ body {
     border-radius: 20px;
     border: 3px red solid;
 }
-
-
-
-.card-back {
-    background-image: url('../image/pyramidimage.jpg');
-}
