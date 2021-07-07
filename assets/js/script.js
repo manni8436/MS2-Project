@@ -1,20 +1,17 @@
 // makes cards flip
 const cards = document.getElementsByClassName("card");
 
-for (var i = 0; i < cards.length; i++) {
-    cards[i].addEventListener("click", flipCard(cards[i]));
-}
-
-function flipCard(card) {
-    if (card.classList.contains("card-front")) {
-        card.classList.add("card-back");
-        card.classList.remove("card-front");
-    } else if (card.classList.contains("card-back")) {
-        card.classList.add("card-front");
-        card.classList.remove("card-back");
+function flipCard() {
+    if (this.classList.contains("card-front")) {
+        this.classList.add("card-back");
+        this.classList.remove("card-front");
     } else {
-        console.log("Oh no!");
+        this.classList.add("card-front");
+        this.classList.remove("card-back");
     }
+}
+for (let i = 0; i < cards.length; i++) {
+    cards[i].addEventListener("click", flipCard);
 }
 
 //add random colors to cards
@@ -27,18 +24,6 @@ const colorArray = [
 
 colorArray.sort(() => 0.5 - Math.random());
 
-for (let i = 0; i < colorArray.length; i++){
+for (let i = 0; i < colorArray.length; i++) {
     cards[i].style.backgroundColor = colorArray[i];
 }
-
-
-
-//function flipCard() {
-    //if (card.classList.contains("card-front")) {
-       // card.classList.add("card-back");
-     //   card.classList.remove("card-front");
-   // } else {
-      //  card.classList.add("card-front");
-    //    card.classList.remove("card-back");
-  //  }
-//}
