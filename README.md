@@ -7,7 +7,7 @@ Milestone Project: Interactive Frontend Development
 ![GitHub language count](https://img.shields.io/github/languages/count/manni8436/MS2-Project)
 ![GitHub top language](https://img.shields.io/github/languages/top/manni8436/MS2-Project)
 
-[Here is a link to the final project](manni8436.github.io/MS2-Project) <!--add deployed link to once deployed-->
+[Here is a link to the final project](https://manni8436.github.io/MS2-Project)
 
 ## INITIAL DESIGN
 
