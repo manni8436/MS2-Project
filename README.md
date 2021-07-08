@@ -80,15 +80,11 @@ The main features that I wanted to include are:
 none were found, I also changed to a different colour to see if it would do the same and the second colour, the same thing happened.
 
 
-![orange header and footer code](assets/docs/headerandfootercolorcodeorange.png))
+![orange header and footer code](assets/docs/headerandfootercolorcodeorange.png)
 ![orange header and footer styling](assets/docs/headerandfootercolorbugorange.png)
 
 ![orange header and footer code](assets/docs/headerandfootercolorbugcodepink.png)
 ![orange header and footer styling](assets/docs/headerandfootercolorbugpink.png)
-
-
-
-
 
 ## SOLVED BUGS
 
