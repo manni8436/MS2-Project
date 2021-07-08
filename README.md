@@ -68,6 +68,28 @@ The main features that I wanted to include are:
 
 ## FEATURES
 
+## FUTURE IMPLEMENTATIONS
+    * to add a timer that counts to zero
+    * scores which will keep track of the scores while playing
+    * score board which will keep track of all the games been played and scores
+    * reset/restart button
+    * music in the background
+
+## KNOWN BUGS
+1. While styling my page, I realised that my footer was a lighter colour then my header, upon looking into dev tools and to see if there is any issues, 
+none were found, I also changed to a different colour to see if it would do the same and the second colour, the same thing happened.
+
+
+![orange header and footer code](assets/docs/headerandfootercolorcodeorange.png).png)
+![orange header and footer styling](assets/docs/headerandfootercolorbugorange.png)
+
+![orange header and footer code](assets/docs/headerandfootercolorbugcodepink.png)
+![orange header and footer styling](assets/docs/headerandfootercolorbugpink.png)
+
+
+
+
+
 ## SOLVED BUGS
 
 1. While trying to get my javascript functionality working, a bug was found and upon looking into the console the error below was given.
