@@ -21,7 +21,7 @@ body {
 
 .game-header {
     color: #c2b280;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -33,7 +33,6 @@ h4 {
 .instructions {
     color: #c2b280;
     margin: 20px;
-    width: 200px;
     text-align: center;
     border: 3px #c2b280 solid;
 }
@@ -51,19 +50,20 @@ h4 {
     background-image: url(../image/pyramids.jpg);
 }
 
+.form-check,
+.form-check-label {
+    color: #ff9a18;
+    text-transform: uppercase;
+}
+
+
 .btn{
     position: relative;
     left: 620px;
     bottom: 20px;
     height: 40px;
     margin-bottom: 20px;
-    text-transform: uppercase;
     border-radius: 5px;
-}
-
-.footer {
-    background-color: #ff9a18;
-    height: 50px;
-    padding: 0;
-    margin: auto;
+    border: 3px #c2b280 solid;
+    text-transform: uppercase;
 }
