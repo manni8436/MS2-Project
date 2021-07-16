@@ -16,7 +16,7 @@ body {
     text-align: center;
     margin: auto;
     height: 650px;
-    width: 650px;
+    width: 65%;
 }
 
 .game-header {
@@ -39,15 +39,19 @@ h4 {
 
 .card {
     display: inline-block;
-    height: 120px;
-    width: 120px;
-    margin: 10px;
+    min-height: 90px;
+    height: 95px;
+    width: 20%;
+    margin: 5px;
+    padding-top: 20%;
     border-radius: 20px;
     border: 3px #ff9a18 solid;
 }
 
 .card-back {
-    background-image: url(../image/pyramids.jpg);
+    background-image: url('../image/pyramids.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .btn {
