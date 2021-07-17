@@ -16,7 +16,6 @@ audience is anyone who is interested in games and also Egyptian Mythology. The t
 
 The main features that I wanted to include are:
 
-
 ## FINAL DESIGN
 
 ![Final project image home page]() <!--add image after project has been completed-->
@@ -61,6 +60,9 @@ The main features that I wanted to include are:
 ## DESIGN
 
 ## COLOR SCHEME
+My overall color scheme used throught out the site.
+
+![Orange](assets/docs/orange.png) ![Grey](assets/docs/grey.png) ![Black](assets/docs/blackcolor.png) 
 
 ## WIREFRAMES
 
