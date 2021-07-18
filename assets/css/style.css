@@ -21,11 +21,6 @@ body {
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-
-    /* text-align: center;
-    margin: auto;
-    height: 650px;
-    width: 650px; */
 }
 
 .game-header {
@@ -64,10 +59,60 @@ h4 {
     color: #202020;
     margin: 10px;
     text-transform: uppercase;
-    border: 2px solid #c2b280;
+    font-weight: 600;
+    border: 3px solid #c2b280;
+}
+
+/*maybe change the background colour of the buttonts to something else*/
+
+#easy:hover {
+    background-color: #28921e;
+    color: #202020;
+    border: 3px solid #c2b280;
+}
+
+#medium:hover {
+    background-color: #fffc00; /*maybe change the colour as unsure if the colour suits*/
+    color: #202020;
+    border: 3px solid #c2b280;
+}
+
+#hard:hover {
+    background-color: #ff0000;
+    color: #202020;
+    border: 3px solid #c2b280;
+}
+
+#play:hover {
+    background-color: #fffc00;
+    color: #202020;
+    font-weight: bold;
+    border: 3px solid #c2b280;
 }
 
 .footer {
     height: 60px;
     background-color: #ff9a18;
+}
+
+@media (max-width: 576px) {
+    .card {
+        height: 100px;
+        width: 100px;
+    }
+
+    .card-back {
+        background-size: cover;
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        height: 97px;
+        width: 97px;
+    }
+
+    .card-back {
+        background-size: cover;
+    }
 }
