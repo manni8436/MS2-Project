@@ -236,4 +236,8 @@ The W3C Markup Validator and W3C CSS Validator was used to validate my project t
 
 ### IMAGES
 
+* Images that have been used for this project have been provided below:
+
+[Back of cards](https://en.wikipedia.org/wiki/Egyptian_pyramids)
+
 ## ACKNOWLEDGEMENTS
