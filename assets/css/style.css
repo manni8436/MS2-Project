@@ -14,9 +14,18 @@ body {
 
 .game {
     text-align: center;
+    margin: 0 auto;
+    height: 100%;
+    max-width: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+
+    /* text-align: center;
     margin: auto;
     height: 650px;
-    width: 650px;
+    width: 650px; */
 }
 
 .game-header {
