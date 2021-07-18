@@ -95,6 +95,7 @@ h4 {
     background-color: #ff9a18;
 }
 
+/*
 @media (max-width: 576px) {
     .card {
         height: 100px;
@@ -116,3 +117,4 @@ h4 {
         background-size: cover;
     }
 }
+*/
