@@ -11,10 +11,15 @@ Milestone Project: Interactive Frontend Development
 
 ## INITIAL DESIGN
 
-My initial idea for this project was to create a fun, interactive card matching game with a Egyptian theme that can be enjoyed by anyone. My target 
+* My initial idea for this project was to create a fun, interactive card matching game with a Egyptian theme that can be enjoyed by anyone. My target 
 audience is anyone who is interested in games and also Egyptian Mythology. The target demographic is incredibly mixed and covers people of all ages and genders.
 
-The main features that I wanted to include are:
+* The main features that I wanted to include are:
+
+    * Easy to use layout.
+    * Easy to read instructions.
+    * A bright but sutle colour scheme that is eye catching but isnt overwhelming.
+    * Hover feature that is clear and precise to be used while playing the game.
 
 ## FINAL DESIGN
 
@@ -51,9 +56,19 @@ The main features that I wanted to include are:
 
 ## USER EXPERIENCE (UX)
 
+The structure of this site was designed to be simple and easy to use while having a good balance of fun factor and brightness but also not overloading the user 
+with the colour scheme as not to strain the vision while they are playing.
+
+* The website was designed for the following user types:
+    
+    * Users that enjoy playing card matching games.
+    * Users that have basic knowledge of the Egyptian history.
+    * Users who have a passion and enjoy anything to do with Egyptian mythology.
+
 ## USER STORIES
 
 #### CLIENT GOALS
+* 
 
 #### FIRST TIME VISITORS
 
@@ -80,7 +95,6 @@ My overall color scheme used throught out the site.
 ## KNOWN BUGS
 1. While styling my page, I realised that my footer was a lighter colour then my header, upon looking into dev tools and to see if there is any issues, 
 none were found, I also changed to a different colour to see if it would do the same and the second colour, the same thing happened.
-
 
 ![orange header and footer code](assets/docs/headerandfootercolorcodeorange.png)
 ![orange header and footer styling](assets/docs/headerandfootercolorbugorange.png)
