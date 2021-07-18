@@ -27,7 +27,7 @@ body {
     color: #c2b280;
     padding: 20px;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: uppercase; 
 }
 
 h4 {
@@ -54,13 +54,24 @@ h4 {
     background-image: url('../image/pyramids.jpg');
 }
 
+.card:hover {
+    animation-name: div-zoom;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    box-shadow: #ff9a18 0px 20px 30px;
+}
+
 .btn {
     background-color: #ff9a18;
     color: #202020;
-    margin: 10px;
+    margin: 15px;
     text-transform: uppercase;
     font-weight: 600;
     border: 3px solid #c2b280;
+}
+
+.play {
+    background-image: linear-gradient(to right top, #28921e, #52a71a, #78bb14, #9ecf0b, #c6e301, #dbdc00, #eed500, #ffce00, #ffac00, #ff8600, #ff5a00, #ff0000);
 }
 
 /*maybe change the background colour of the buttonts to something else*/
@@ -68,31 +79,68 @@ h4 {
 #easy:hover {
     background-color: #28921e;
     color: #202020;
-    border: 3px solid #c2b280;
+    border: 3px solid #28921e;
+    animation-name: div-zoom;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    box-shadow: 0px 20px 30px #28921e;
 }
 
 #medium:hover {
-    background-color: #fffc00; /*maybe change the colour as unsure if the colour suits*/
+    background-color: #fffc00; 
     color: #202020;
-    border: 3px solid #c2b280;
+    border: 3px solid #fffc00;
+    animation-name: div-zoom;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    box-shadow: 0px 20px 30px #fffc00;
 }
 
 #hard:hover {
-    background-color: #ff0000;
+    background-color: #ff0000; 
     color: #202020;
-    border: 3px solid #c2b280;
+    border: 3px solid #ff0000;
+    animation-name: div-zoom;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    box-shadow: 0px 20px 30px#ff0000;
 }
 
-#play:hover {
-    background-color: #fffc00;
+.play:hover {
+    background-color: #ff0000; 
     color: #202020;
-    font-weight: bold;
-    border: 3px solid #c2b280;
+    border: 3px solid #ff0000;
+    animation-name: div-zoom;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
 }
 
 .footer {
-    height: 60px;
+    height: 75px;
     background-color: #ff9a18;
+}
+
+.socialmedia {
+    font-size: 40px;
+    word-spacing: 30px;
+    margin: 15px;
+    text-align: center;
+}
+
+.socialmedia li,
+.socialmedia a {
+    color: #202020;
+    display: inline-block;
+}
+
+@keyframes div-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.05);
+    }
 }
 
 /*
