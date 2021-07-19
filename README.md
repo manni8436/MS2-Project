@@ -89,10 +89,9 @@ My overall color scheme used throught out the site.
 
 ![Orange](assets/docs/orange.png) ![Grey](assets/docs/grey.png) ![Black](assets/docs/blackcolor.png) 
 
-* the colours below were used for the hover affect and the colours of the buttons.
+* The colours below were used for the hover affect and the colours of the buttons.
 
-![Green Hover](assets/docs/greenhovercolor.png) ![Green Button](assets/docs/greenbuttoncolor.png) ![Yellow Button](assets/docs/yellowbuttoncolor.png) 
-![Red Button](assets/docs/redbuttoncolor.png)
+![Green](assets/docs/greenhovercolor.png) ![Yellow](assets/docs/yellowbuttoncolor.png) ![Red](assets/docs/redbuttoncolor.png)
 
 ## WIREFRAMES
 
