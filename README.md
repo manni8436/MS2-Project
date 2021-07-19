@@ -19,7 +19,7 @@ audience is anyone who is interested in games and also Egyptian Mythology. The t
     * Easy to use layout.
     * Easy to read instructions.
     * A bright but sutle colour scheme that is eye catching but isnt overwhelming.
-    * Hover feature that is clear and precise to be used while playing the game.
+    * Hover feature that is clear and precise to be used to highlight what is seleced during game play.
 
 ## FINAL DESIGN
 
@@ -60,7 +60,6 @@ The structure of this site was designed to be simple and easy to use while havin
 with the colour scheme as not to strain the vision while they are playing.
 
 * The website was designed for the following user types:
-    
     * Users that enjoy playing card matching games.
     * Users that have basic knowledge of the Egyptian history.
     * Users who have a passion and enjoy anything to do with Egyptian mythology.
@@ -68,13 +67,22 @@ with the colour scheme as not to strain the vision while they are playing.
 ## USER STORIES
 
 #### CLIENT GOALS
-* 
+
+* The site needs to be easily accessible.
+* Manouvering around the site to be simple and straightforwards to use.
+* The site to be easy to read, understandable and be able to see all images clearly.
+* The site to have clear indication of what has been selected while playing.
 
 #### FIRST TIME VISITORS
+
+* I want the site to be easy to understand on how to navigate throughout the site.
+* I want the instructions to be clear, understandable and easily read.
+* I want the first time user to be able to understand how to play quickly as not to get frustrated.
 
 ## DESIGN
 
 ## COLOR SCHEME
+
 My overall color scheme used throught out the site.
 
 ![Orange](assets/docs/orange.png) ![Grey](assets/docs/grey.png) ![Black](assets/docs/blackcolor.png) 
@@ -86,11 +94,11 @@ My overall color scheme used throught out the site.
 ## FEATURES
 
 ## FUTURE IMPLEMENTATIONS
-    * to add a timer that counts to zero
-    * scores which will keep track of the scores while playing
-    * score board which will keep track of all the games been played and scores
-    * reset/restart button
-    * music in the background
+* to add a timer that counts to zero
+* scores which will keep track of the scores while playing
+* score board which will keep track of all the games been played and scores
+* reset/restart button
+* music in the background
 
 ## KNOWN BUGS
 1. While styling my page, I realised that my footer was a lighter colour then my header, upon looking into dev tools and to see if there is any issues, 
