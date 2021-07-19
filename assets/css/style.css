@@ -64,6 +64,7 @@ h4 {
 .btn {
     background-color: #ff9a18;
     color: #202020;
+    min-width: 100px;
     margin: 15px;
     text-transform: uppercase;
     font-weight: 600;
