@@ -72,10 +72,9 @@ h4 {
 }
 
 .play {
-    background-image: linear-gradient(to right top, #28921e, #52a71a, #78bb14, #9ecf0b, #c6e301, #dbdc00, #eed500, #ffce00, #ffac00, #ff8600, #ff5a00, #ff0000);
+    padding: 15px;
+    min-width: 120px;
 }
-
-/*maybe change the background colour of the buttonts to something else*/
 
 #easy:hover {
     background-color: #28921e;
@@ -108,12 +107,13 @@ h4 {
 }
 
 .play:hover {
-    background-color: #ff0000; 
+    background-color: #ff9a18; 
     color: #202020;
     animation-name: div-zoom;
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
-    border-image: linear-gradient(to right top, #28921e, #52a71a, #78bb14, #9ecf0b, #c6e301, #dbdc00, #eed500, #ffce00, #ffac00, #ff8600, #ff5a00, #ff0000);
+    box-shadow: 0px 20px 30px #ff9a18;
+    border: 3px #ff9a18 solid;
 }
 
 .footer {
