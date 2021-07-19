@@ -89,6 +89,11 @@ My overall color scheme used throught out the site.
 
 ![Orange](assets/docs/orange.png) ![Grey](assets/docs/grey.png) ![Black](assets/docs/blackcolor.png) 
 
+* the colours below were used for the hover affect and the colours of the buttons.
+
+![Green Hover](assets/docs/greenhovercolor.png) ![Green Button](assets/docs/greenbuttoncolor.png) ![Yellow Button](assets/docs/yellowbuttoncolor.png) 
+![Red Button](assets/docs/redbuttoncolor.png)
+
 ## WIREFRAMES
 
 [Here are my wireframes for desktop, mobile and tablet for this project](assets/wireframes/MSProject2wireframes.pdf)
