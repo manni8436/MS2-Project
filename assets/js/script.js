@@ -44,9 +44,9 @@ let easy = easyLevel.id;
 let medium = mediumLevel.id;
 let hard = hardLevel.id;
 
-easy = easy.substring(0, easyLevel.length - 15);
-medium = medium.substring(0, easyLevel.length - 15);
-hard = hard.substring(0, easyLevel.length - 15);
+easy = easy.substring(0, easy.length - 16);
+medium = medium.substring(0, medium.length - 16);
+hard = hard.substring(0, hard.length - 16);
 
 function selectLevel() {
     var selectedLevel = this.id;
