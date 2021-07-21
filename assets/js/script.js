@@ -30,43 +30,40 @@ for (let i = 0; i < colorArray.length; i++) {
 }
 
 //  level selector
-const easyLevel = document.getElementById("easy-level-container");
-const mediumLevel = document.getElementById("medium-level-container");
-const hardLevel = document.getElementById("hard-level-container");
 const levelSelectors = document.getElementsByClassName("level-selector");
 
 for (let i = 0; i < levelSelectors.length; i++) {
     levelSelectors[i].addEventListener("click", selectLevel);
 }
 
-function selectLevel() {
-    var selectedLevel = this.id;
+const easyLevel = document.getElementById("easy-level-container");
+const mediumLevel = document.getElementById("medium-level-container");
+const hardLevel = document.getElementById("hard-level-container");
 
-    if (selectedLevel == 'easy') {
-        easyLevel.classList.remove("hide");
-        mediumLevel.classList.add("hide");
-        hardLevel.classList.add("hide");
-    }
-}
+let easy = easyLevel.id;
+let medium = mediumLevel.id;
+let hard = hardLevel.id;
 
-function selectLevel() {
-    var selectedLevel = this.id;
+easy = easy.substring(0, easyLevel.length - 15);
+medium = medium.substring(0, easyLevel.length - 15);
+hard = hard.substring(0, easyLevel.length - 15);
 
-    if (selectedLevel == 'medium') {
-        easyLevel.classList.add("hide");
-        mediumLevel.classList.remove("hide");
-        hardLevel.classList.add("hide");
-    }
-}
+function selectLevel() {
+    var selectedLevel = this.id;
 
-function selectLevel() {
-    var selectedLevel = this.id;
-
-    if (selectedLevel == 'hard') {
-        easyLevel.classList.add("hide");
-        mediumLevel.classList.add("hide");
-        hardLevel.classList.remove("hide");
-    }
+    if (selectedLevel == easy) {
+        easyLevel.classList.remove("hide");
+        mediumLevel.classList.add("hide");
+        hardLevel.classList.add("hide");
+    } else if (selectedLevel == medium) {
+        easyLevel.classList.add("hide");
+        mediumLevel.classList.remove("hide");
+        hardLevel.classList.add("hide");
+    } else if (selectedLevel == hard) {
+        easyLevel.classList.add("hide");
+        mediumLevel.classList.add("hide");
+        hardLevel.classList.remove("hide");
+    }
 }
 
 
