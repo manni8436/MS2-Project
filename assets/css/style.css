@@ -183,3 +183,7 @@ h4 {
         transform: scale(1.05);
     }
 }
+
+.hide {
+    display: none;
+}
