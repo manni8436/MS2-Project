@@ -19,10 +19,8 @@ audience is anyone who is interested in games and also Egyptian Mythology. The t
     * Easy to use layout.
     * Easy to read instructions.
     * A bright but sutle colour scheme that is eye catching but isnt overwhelming.
-    * Hover feature that is clear and precise to be used while choosing a selection.
-    * In addition to hover feature, upon selection the colour theme of the selected items will change colour to indicate that it has been selected.
-    * When a match has been made, the colour will change colour to indicate a confirmed match.
-
+    * Hover feature with a background color indicator that is clear and precise to be used while choosing a selection.
+    
 ## FINAL DESIGN
 
 ![Final project image home page]() <!--add image after project has been completed-->
