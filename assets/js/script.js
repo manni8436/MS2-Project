@@ -1,32 +1,15 @@
-const cards = document.getElementsByClassName("card");
-
-//add random colors to cards
-const colorArray = [
-    '#FF6633', '#FFB399', '#FF33FF', '#66991A', '#00B3E6', 
-    '#FF33FF', '#3366E6', '#00B3E6', '#99FF99', '#99FF99',
-    '#FFB399', '#FFFF99', '#3366E6', '#66991A', '#FF9A18', 
-    '#FF6633', '#C2B280', '#FFFF99', '#C2B280', '#FF9A18',
-    '#28921E', '#FFFC00', '#28921E', '#fffc00'
-];
-
-colorArray.sort(() => 0.5 - Math.random());
-
-for (let i = 0; i < colorArray.length; i++) {
-    cards[i].style.backgroundColor = colorArray[i];
-}
-
 //  level selector
-const levelSelectors = document.getElementsByClassName("level-selector");
-
-for (let i = 0; i < levelSelectors.length; i++) {
-    levelSelectors[i].addEventListener("click", selectLevel);
-}
+let selectedLevel = "easy";
+const levelSelectors = document.getElementsByClassName("level-selector"); // Get all level buttons
+let cards;
+let j = 1;
+let score = 0;
 
 const easyLevel = document.getElementById("easy-level-container");
 const mediumLevel = document.getElementById("medium-level-container");
 const hardLevel = document.getElementById("hard-level-container");
 
-let easy = easyLevel.id;
+let easy = easyLevel.id; // get the id of level containers
 let medium = mediumLevel.id;
 let hard = hardLevel.id;
 
@@ -34,55 +17,112 @@ easy = easy.substring(0, easy.length - 16);
 medium = medium.substring(0, medium.length - 16);
 hard = hard.substring(0, hard.length - 16);
 
-function selectLevel() {
-    var selectedLevel = this.id;
+//add random colors to cards
+let basicColorArray = [
+    '#FF6633', '#FF6633', '#FFB399', '#FFB399', '#FF33FF', 
+    '#FF33FF', '#66991A', '#66991A', '#00B3E6', '#00B3E6', 
+    '#FFFC00', '#FFFC00', '#28921E', '#28921E', '#FFFF99', 
+    '#FFFF99'
+];
 
-    if (selectedLevel == easy) {
-        easyLevel.classList.remove("hide");
+let colorArray;
+
+function sortColors() {
+    colorArray = basicColorArray;
+    if (selectedLevel == "easy") {
+        colorArray = basicColorArray;
+        cards = document.getElementsByClassName("card");
+    } else if (selectedLevel == "medium") {
+        colorArray.push('#3366E6', '#3366E6', '#FF9A18', '#FF9A18');
+        cards = document.getElementsByClassName("card-medium");
+    } else if (selectedLevel == "hard") {
+        colorArray.push('#3366E6', '#3366E6', '#FF9A18', '#FF9A18', '#99FF99', '#99FF99', '#C2B280', '#C2B280');
+        cards = document.getElementsByClassName("card-hard");
+    }
+
+    colorArray.sort(() => 0.5 - Math.random()); // Randomise colors
+
+    for (let i = 0; i < cards.length; i++) {
+        cards[i].addEventListener("click", flipCard);
+    }
+
+    setTimeout(function(){
+        for (let i = 0; i < colorArray.length; i++) {
+            cards[i].style.backgroundColor = colorArray[i]; // Add colors to cards in a random order
+        }
+    }, 500);
+}
+
+function selectLevel() {
+    selectedLevel = this.id; // Whichever button they click, get that id
+    j = 1;
+    score = 0;
+    if (selectedLevel == "easy") {
+        easyLevel.classList.remove("hide"); // Set the amount of cards depending on which level was chosen
         mediumLevel.classList.add("hide");
         hardLevel.classList.add("hide");
-    } else if (selectedLevel == medium) {
+    } else if (selectedLevel == "medium") {
         easyLevel.classList.add("hide");
         mediumLevel.classList.remove("hide");
         hardLevel.classList.add("hide");
-    } else if (selectedLevel == hard) {
+    } else if (selectedLevel == "hard") {
         easyLevel.classList.add("hide");
         mediumLevel.classList.add("hide");
         hardLevel.classList.remove("hide");
     }
+    sortColors();
 }
+
+for (let i = 0; i < levelSelectors.length; i++) {
+    levelSelectors[i].addEventListener("click", selectLevel); // Add an onclick to select the level
+}
+
+sortColors();
+
+let cardOne;
+let cardTwo;
+let cardOneColor;
+let cardTwoColor;
+let busy = false;
 
 function flipCard() {
-    this.classList.add("card-front");
-    this.classList.remove("card-back");
+    if (!busy) {
+        busy = true;
+        this.classList.remove("card-back"); // On click, flip the card
+        console.log("j = " + j);
+        if (j % 2 != 0) {
+            cardOne = this.id;
+            cardOneColor = document.getElementById(cardOne).style.backgroundColor;
+            busy = false;
+        } else {
+            cardTwo = this.id;
+            cardTwoColor = document.getElementById(cardTwo).style.backgroundColor;
+            setTimeout(function(){
+                if (cardOneColor == cardTwoColor && cardOne != cardTwo) {
+                    document.getElementById(cardOne).style.backgroundColor = "transparent";
+                    document.getElementById(cardTwo).style.backgroundColor = "transparent";
+                    score++;
+                } else {
+                    document.getElementById(cardOne).classList.add("card-back");
+                    document.getElementById(cardTwo).classList.add("card-back");
+                }
+                busy = false;
+            }, 1000);
+        }
+        j++;
 
-    let cardOne;
-    let cardTwo;
-    let cardOneColor;
-    let cardTwoColor;
-
-    let j = 0;
-
-    if (j % 2 != 0) {
-        cardOne = this;
-        cardOneColor = this.style.backgroundColor;
-    } else {
-        cardTwo = this;
-        cardTwoColor = this.style.backgroundColor;
+        if (selectedLevel == "easy") {
+            if (score == 8) {
+                console.log("You win!!!");
+            }
+        } else if (selectedLevel == "medium") {
+            if (score == 10) {
+                console.log("You win!!!");
+            }
+        } else if (selectedLevel == "hard") {
+            if (score == 12) {
+                console.log("You win!!!");
+            }
+        }
     }
-    j++;
-
-    if (cardOneColor == cardTwoColor) {
-        cardOne.style.backgroundColor = transparent;
-        cardTwo.style.backgroundColor = transparent;
-    } else {
-        cardOne.classList.remove("card-front");
-        cardOne.classList.add("card-back");
-        cardTwo.classList.remove("card-front");
-        cardTwo.classList.add("card-back");
-    }
-}
-
-for (let i = 0; i < cards.length; i++) {
-    cards[i].addEventListener("click", flipCard);
 }
