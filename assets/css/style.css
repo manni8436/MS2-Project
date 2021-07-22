@@ -38,43 +38,32 @@ h4 {
 }
 
 .card-back {
-    background-image: url('../image/pyramids.jpg');
+    background-image: url('pyramids.jpeg');
     background-repeat: no-repeat;
 }
 
 /* levels section */
 
-.easy-level {
+.easy-level, .medium-level, .hard-level {
     text-align: center;
     margin: 0 auto;
     height: 100%;
-    max-width: 650px;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+}
+
+.easy-level {
+    max-width: 650px;
 }
 
 .medium-level {
-    text-align: center;
-    margin: 0 auto;
-    height: 100%;
     max-width: 750px;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
 }
 
 .hard-level {
-    text-align: center;
-    margin: 0 auto;
-    height: 100%;
     max-width: 900px;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
 }
 
 /* instructions section */
@@ -112,42 +101,33 @@ h4 {
     box-shadow: #ff9a18 0px 20px 30px;
 }
 
-.easy:hover {
-    background-color: #28921e;
+.easy:hover, .medium:hover, .hard:hover, .play:hover {
     color: #202020;
-    border: 3px solid #28921e;
     animation-name: div-zoom;
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
+}
+
+.easy:hover {
+    background-color: #28921e;
+    border: 3px solid #28921e;
     box-shadow: 0px 20px 30px #28921e;
 }
 
 .medium:hover {
     background-color: #fffc00; 
-    color: #202020;
     border: 3px solid #fffc00;
-    animation-name: div-zoom;
-    animation-duration: 0.5s;
-    animation-fill-mode: forwards;
     box-shadow: 0px 20px 30px #fffc00;
 }
 
 .hard:hover {
     background-color: #ff0000; 
-    color: #202020;
     border: 3px solid #ff0000;
-    animation-name: div-zoom;
-    animation-duration: 0.5s;
-    animation-fill-mode: forwards;
     box-shadow: 0px 20px 30px#ff0000;
 }
 
 .play:hover {
     background-color: #ff9a18; 
-    color: #202020;
-    animation-name: div-zoom;
-    animation-duration: 0.5s;
-    animation-fill-mode: forwards;
     box-shadow: 0px 20px 30px #ff9a18;
     border: 3px #ff9a18 solid;
 }
@@ -178,7 +158,6 @@ h4 {
     from {
         transform: scale(1);
     }
-
     to {
         transform: scale(1.05);
     }
