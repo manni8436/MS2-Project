@@ -14,6 +14,12 @@ body {
     text-transform: uppercase;
 }
 
+/* modal */
+.modal {
+
+}
+
+
 .game-header {
     color: #c2b280;
     padding: 20px;
@@ -87,9 +93,22 @@ h4 {
     border: 3px solid #c2b280;
 }
 
-.play {
-    padding: 15px;
-    min-width: 120px;
+.reset {
+    font-size: larger;
+    padding: 10px;
+    min-width: 110px;
+}
+
+/* scores */
+#score {
+    background-color: #ff9a18;
+    color: #202020;
+    padding: 5px;
+    min-width: 100px;
+    margin: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 3px solid #c2b280;
 }
 
 /* hover section */
@@ -126,7 +145,7 @@ h4 {
     box-shadow: 0px 20px 30px#ff0000;
 }
 
-.play:hover {
+.reset:hover {
     background-color: #ff9a18; 
     box-shadow: 0px 20px 30px #ff9a18;
     border: 3px #ff9a18 solid;
