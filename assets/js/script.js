@@ -31,7 +31,7 @@ function sortColors() {
     colorArray = basicColorArray;
     if (selectedLevel == "easy") {
         colorArray = basicColorArray;
-        cards = document.getElementsByClassName("card");
+        cards = document.getElementsByClassName("card-easy");
     } else if (selectedLevel == "medium") {
         colorArray.push('#3366E6', '#3366E6', '#FF9A18', '#FF9A18');
         cards = document.getElementsByClassName("card-medium");
@@ -89,7 +89,6 @@ function flipCard() {
     if (!busy) {
         busy = true;
         this.classList.remove("card-back"); // On click, flip the card
-        console.log("j = " + j);
         if (j % 2 != 0) {
             cardOne = this.id;
             cardOneColor = document.getElementById(cardOne).style.backgroundColor;
