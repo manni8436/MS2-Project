@@ -125,3 +125,12 @@ function flipCard() {
         }
     }
 }
+
+let scoreArea = document.getElementById("score");
+
+function pushScore() {
+    scoreArea.innerText = `${currentScore}/10`; // pushes the updated score to the score area for the user to see
+}
+
+
+
