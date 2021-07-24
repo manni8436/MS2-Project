@@ -15,7 +15,7 @@
 <body>
 
 <nav class="navbar">
-  <a class="navbar-brand" href="index.html"> <!--add index.html to the href-->
+  <a class="navbar-brand" href="index.html">
     <h1 class="main-header">Pharaoh`s Match</h1>
   </a>
 </nav>
@@ -30,7 +30,7 @@
     <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
       <div class="instructions">
         <h4 class="instructions-header">how to play!</h4>
-        <p>Once you are ready to play the game, choose two cards and if they match then you will get 8 points for easy level, 10 points on medium level and 
+        <p>Once you are ready to play the game, choose two cards and if they match then you will get 8 points on easy level, 10 points on medium level and 
           12 points on hard level</p>
       </div>
     </div>
@@ -59,7 +59,7 @@
         <div class="card card-back card-easy" id="card-easy-15"></div>
       </div>
       <div class="medium-level hide" id="medium-level-container"> 
-        <div class="card card-back card-medium id="card-medium-0"></div>
+        <div class="card card-back card-medium" id="card-medium-0"></div>
         <div class="card card-back card-medium" id="card-medium-1"></div>
         <div class="card card-back card-medium" id="card-medium-2"></div>
         <div class="card card-back card-medium" id="card-medium-3"></div>
@@ -123,6 +123,7 @@
     </div>
   </div>
   <div class="row">
+    <div class="movescounter" id="movescounter">moves: 0</div>
     <div class="col-6 col-sm-12 col-md-6 text-center">
       <div id="score">0 / 10 </div>
     </div>
@@ -142,7 +143,6 @@
   <button type="button" class="modal-close-button" id="close">close</button>
   <button type="button" class="modal-replay-button" id="replay">replay</button>
 </div>
-
 
 <footer class="footer">
   <ul class="socialmedia">
