@@ -91,15 +91,17 @@ function flipCard() {
         this.classList.remove("card-back"); // On click, flip the card
         if (j % 2 != 0) {
             cardOne = this.id;
+            console.log(j);
             cardOneColor = document.getElementById(cardOne).style.backgroundColor;
+            j++; 
             busy = false;
         } else {
             cardTwo = this.id;
-            if (cardOne != cardTwo) {
-            j++;
+            console.log(j);
             cardTwoColor = document.getElementById(cardTwo).style.backgroundColor;
-            }
-            setTimeout(function(){
+            if (cardOne != cardTwo) {
+                j++; }
+            setTimeout(function() {
                 if (cardOneColor == cardTwoColor && cardOne != cardTwo) {
                     document.getElementById(cardOne).style.backgroundColor = "transparent";
                     document.getElementById(cardTwo).style.backgroundColor = "transparent";
@@ -111,7 +113,6 @@ function flipCard() {
                 busy = false;
             }, 1000);
         }
-        j++;
 
         if (selectedLevel == "easy") {
             if (score == 8) {
@@ -143,6 +144,9 @@ function resetGame() {
     for (let i = 0; i < cards.length; i++) {
         cards[i].classList.remove("card-front"); 
         cards[i].classList.add("card-back"); 
+
+         j = 0;
+         score = 0;
     }
 };
 
