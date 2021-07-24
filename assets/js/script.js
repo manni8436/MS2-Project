@@ -147,6 +147,12 @@ function resetGame() {
     winModal.style.display = "none"
 };
 
+const closeButton = document.getElementById("close");
+closeButton.addEventListener("click", function() {
+     winModal.style.display = "none";
+});
+
 let replayButton = document.getElementById("replay");
 
 replayButton.addEventListener("click", resetGame);
+
