@@ -17,7 +17,7 @@ body {
 /* modal */
 .modal {
     background-color: #202020;
-    display: block;
+    display: none;
     position: fixed;
     top: 250px;
     left: 340px;
