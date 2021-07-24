@@ -74,13 +74,7 @@ body {
     text-transform: uppercase; 
 }
 
-h4 {
-    text-transform: uppercase;
-    margin: 5px;
-}
-
 /* cards section */
-
 .card {
     display: inline-block;
     height: 120px;
@@ -96,7 +90,6 @@ h4 {
 }
 
 /* levels section */
-
 .easy-level, .medium-level, .hard-level {
     text-align: center;
     margin: 0 auto;
@@ -120,11 +113,19 @@ h4 {
 }
 
 /* instructions section */
+.instructions-header {
+    color: #ff9a18;
+    margin: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
 
 .instructions {
     color: #c2b280;
-    margin: 20px;
+    margin: 10px;
+    padding: 5px;
     text-align: center;
+    text-transform: uppercase;
     border: 3px #c2b280 solid;
 }
 
@@ -135,8 +136,8 @@ h4 {
     color: #202020;
     min-width: 100px;
     margin: 15px;
-    text-transform: uppercase;
     font-weight: 600;
+    text-transform: uppercase;
     border: 3px solid #c2b280;
 }
 
@@ -159,6 +160,9 @@ h4 {
 }
 
 /* hover section */
+.navbar-brand h2 {
+    color: #202020;
+}
 
 .card:hover {
     animation-name: div-zoom;
