@@ -71,6 +71,7 @@ function selectLevel() {
         hardLevel.classList.remove("hide");
     }
     sortColors();
+    pushScore();
 }
 
 for (let i = 0; i < levelSelectors.length; i++) {
@@ -94,6 +95,7 @@ function checkWin() {
     } else if (selectedLevel == "hard" && score == 12) {
         winModal.style.display = "block";
     }
+    pushScore();
 }
 function flipCard() {
     if (!busy) {
@@ -123,13 +125,20 @@ function flipCard() {
             }, 1000);
         }
     }
+    pushScore()
 }
 
 
 let scoreArea = document.getElementById("score");
 
 function pushScore() {
-    scoreArea.innerText = `${currentScore}/10`; // pushes the updated score to the score area for the user to see
+    if (selectedLevel == "easy") {
+        scoreArea.innerText = `${score} / 8`;
+    } else if (selectedLevel == "medium") {
+        scoreArea.innerText = `${score} / 10`;
+    } else if (selectedLevel == "hard") {
+        scoreArea.innerText = `${score} / 12`;
+    }
 }
 
 let resetButton = document.getElementById("reset");
