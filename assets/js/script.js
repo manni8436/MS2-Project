@@ -95,7 +95,10 @@ function flipCard() {
             busy = false;
         } else {
             cardTwo = this.id;
+            if (cardOne != cardTwo) {
+            j++;
             cardTwoColor = document.getElementById(cardTwo).style.backgroundColor;
+            }
             setTimeout(function(){
                 if (cardOneColor == cardTwoColor && cardOne != cardTwo) {
                     document.getElementById(cardOne).style.backgroundColor = "transparent";
@@ -132,6 +135,17 @@ function pushScore() {
     scoreArea.innerText = `${currentScore}/10`; // pushes the updated score to the score area for the user to see
 }
 
-function resetButton() {
-    document.getElementById("reset").reset(); // it selecting the right thing but the button doesnt work
-}
+let resetButton = document.getElementById("reset");
+
+resetButton.addEventListener("click", resetGame);
+
+function resetGame() {
+    for (let i = 0; i < cards.length; i++) {
+        cards[i].classList.remove("card-front"); 
+        cards[i].classList.add("card-back"); 
+    }
+};
+
+let replayButton = document.getElementById("replay");
+
+replayButton.addEventListener("click", resetGame);
