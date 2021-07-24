@@ -112,7 +112,7 @@ function flipCard() {
 
         if (selectedLevel == "easy") {
             if (score == 8) {
-                console.log("You win!!!");
+                document.getElementById("winModal").style.display = "block";
             }
         } else if (selectedLevel == "medium") {
             if (score == 10) {
@@ -132,5 +132,6 @@ function pushScore() {
     scoreArea.innerText = `${currentScore}/10`; // pushes the updated score to the score area for the user to see
 }
 
-
-
+function resetButton() {
+    document.getElementById("reset").reset(); // it selecting the right thing but the button doesnt work
+}
