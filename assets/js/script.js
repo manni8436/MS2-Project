@@ -116,11 +116,11 @@ function flipCard() {
             }
         } else if (selectedLevel == "medium") {
             if (score == 10) {
-                console.log("You win!!!");
+                document.getElementById("winModal").style.display = "block";
             }
         } else if (selectedLevel == "hard") {
             if (score == 12) {
-                console.log("You win!!!");
+                document.getElementById("winModal").style.display = "block";
             }
         }
     }
