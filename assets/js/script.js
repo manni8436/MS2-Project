@@ -84,20 +84,28 @@ let cardTwo;
 let cardOneColor;
 let cardTwoColor;
 let busy = false;
+const winModal = document.getElementById("winModal");
 
+function checkWin() {
+    if (selectedLevel == "easy" && score == 8) {
+        winModal.style.display = "block";
+    } else if (selectedLevel == "medium" && score == 10) {
+        winModal.style.display = "block";
+    } else if (selectedLevel == "hard" && score == 12) {
+        winModal.style.display = "block";
+    }
+}
 function flipCard() {
     if (!busy) {
         busy = true;
         this.classList.remove("card-back"); // On click, flip the card
         if (j % 2 != 0) {
             cardOne = this.id;
-            console.log(j);
             cardOneColor = document.getElementById(cardOne).style.backgroundColor;
             j++; 
             busy = false;
         } else {
             cardTwo = this.id;
-            console.log(j);
             cardTwoColor = document.getElementById(cardTwo).style.backgroundColor;
             if (cardOne != cardTwo) {
                 j++; }
@@ -106,6 +114,7 @@ function flipCard() {
                     document.getElementById(cardOne).style.backgroundColor = "transparent";
                     document.getElementById(cardTwo).style.backgroundColor = "transparent";
                     score++;
+                    checkWin();
                 } else {
                     document.getElementById(cardOne).classList.add("card-back");
                     document.getElementById(cardTwo).classList.add("card-back");
@@ -113,22 +122,9 @@ function flipCard() {
                 busy = false;
             }, 1000);
         }
-
-        if (selectedLevel == "easy") {
-            if (score == 8) {
-                document.getElementById("winModal").style.display = "block";
-            }
-        } else if (selectedLevel == "medium") {
-            if (score == 10) {
-                document.getElementById("winModal").style.display = "block";
-            }
-        } else if (selectedLevel == "hard") {
-            if (score == 12) {
-                document.getElementById("winModal").style.display = "block";
-            }
-        }
     }
 }
+
 
 let scoreArea = document.getElementById("score");
 
@@ -148,6 +144,7 @@ function resetGame() {
          j = 0;
          score = 0;
     }
+    winModal.style.display = "none"
 };
 
 let replayButton = document.getElementById("replay");
