@@ -16,9 +16,56 @@ body {
 
 /* modal */
 .modal {
-
+    background-color: #202020;
+    display: block;
+    position: fixed;
+    top: 250px;
+    left: 340px;
+    z-index: 1;
+    height: 50%;
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+    border: 5px #ff9a18 solid;
 }
 
+.congrats {
+    color: #ff0000;
+    margin: 15px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.modal-content {
+    background-color: #202020;
+    color: #c2b280;
+    margin: 30px auto;
+    padding: 22px;
+    height: 40%;
+    width: 80%;
+    text-align: center;
+    border-radius: 10px;
+    border: 4px #ff9a18 solid;
+}
+
+.modal-content p {
+    margin: 5px;
+    text-transform: uppercase;
+}
+
+.modal-close-button,
+.modal-reset-button {
+    background-color: #ff9a18;
+    color: #202020;
+    margin: auto;
+    padding: 10px;
+    min-width: 110px;
+    font-size: larger;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 3px #c2b280 solid;
+}
 
 .game-header {
     color: #c2b280;
@@ -146,6 +193,18 @@ h4 {
 }
 
 .reset:hover {
+    background-color: #ff9a18; 
+    box-shadow: 0px 20px 30px #ff9a18;
+    border: 3px #ff9a18 solid;
+}
+
+.modal-close-button:hover {
+    background-color: #ff9a18; 
+    box-shadow: 0px 20px 30px #ff9a18;
+    border: 3px #ff9a18 solid;
+}
+
+.modal-reset-button:hover {
     background-color: #ff9a18; 
     box-shadow: 0px 20px 30px #ff9a18;
     border: 3px #ff9a18 solid;
