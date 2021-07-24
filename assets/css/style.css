@@ -147,14 +147,27 @@ body {
     min-width: 110px;
 }
 
-/* scores */
+/* scores and moves counter */
 #score {
     background-color: #ff9a18;
     color: #202020;
     padding: 5px;
-    min-width: 100px;
+    max-width: 100px;
     margin: 15px;
     font-weight: bold;
+    border-radius: 5px;
+    border: 3px solid #c2b280;
+}
+
+.movescounter {
+    background-color: #ff9a18;
+    color: #202020;
+    padding: 5px;
+    max-width: 100px;
+    margin: 15px;
+    padding: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
     border-radius: 5px;
     border: 3px solid #c2b280;
 }
