@@ -240,11 +240,13 @@ If you need to make a local clone:
 The W3C Markup Validator and W3C CSS Validator was used to validate my project to make sure there were no errors within the site.
 
 * W3C HTML Validator Results
-    * [HTML]( ) <!--fill in this section once the project has been completed and checked in the validator-->
+    * [HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmanni8436.github.io%2FMS2-Project%2F)
 * W3C CSS Validator Results
-    * [CSS]( ) <!--fill in this section once the project has been completed and checked in the validator-->
+    * [CSS](http://www.css-validator.org/validator?uri=https%3A%2F%2Fmanni8436.github.io%2FMS2-Project%2F&profile=css21&usermedium=all&warning=1&lang=en)
 * JavaScript Validator
-    * ![JSHint]( ) <!--fill in this section once the project has been completed and checked in the validator-->    
+    * ![JSHint 1](assets/docs/JSHint1.png)
+    * ![JSHint 2](assets/docs/JSHint2.png)
+    * ![JSHint 3](assets/docs/JSHint3.png) 
 
 ### FULL TESTING
 
