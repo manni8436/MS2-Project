@@ -146,15 +146,12 @@ let resetButton = document.getElementById("reset");
 resetButton.addEventListener("click", resetGame);
 
 function resetGame() {
-    for (let i = 0; i < cards.length; i++) {
-        cards[i].classList.remove("card-front"); 
-        cards[i].classList.add("card-back"); 
-
-         j = 0;
-         score = 0;
-    }
-    winModal.style.display = "none"
+    j = 0;
+    score = 0;
+    winModal.style.display = "none";
+    resetCards();
     sortColors();
+    pushScore();
 };
 
 const closeButton = document.getElementById("close");
