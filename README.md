@@ -69,7 +69,7 @@ I also didn't want to overload the user with the color scheme, so as not to stra
 #### CLIENT GOALS
 
 * The site needs to be easily accessible.
-* Manouvering around the site to be simple and straightforwards to use.
+* Manouvering around the site to be simple and straightforward to use.
 * The site to be easy to read, understandable and be able to see all images clearly.
 * The site to have clear indication of what has been selected while playing.
 
@@ -77,7 +77,7 @@ I also didn't want to overload the user with the color scheme, so as not to stra
 
 * I want the site to be easy to understand on how to navigate throughout the site.
 * I want the instructions to be clear, understandable and easily read.
-* I want the first time user to be able to understand how to play quickly as not to get frustrated.
+* I want the first time user to be able to understand how to play quickly so as not to get frustrated.
 
 ## DESIGN
 
