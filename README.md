@@ -56,8 +56,8 @@ audience is anyone who is interested in games and also Egyptian Mythology. The t
 
 ## USER EXPERIENCE (UX)
 
-The structure of this site was designed to be simple and easy to use while having a good balance of fun factor and brightness but also not overloading the user 
-with the colour scheme as not to strain the vision while they are playing.
+The structure of this site was designed to be simple and easy to use while having a good balance of fun factor and brightness. 
+I also didn't want to overload the user with the color scheme, so as not to strain the user's vision while they are playing.
 
 * The website was designed for the following user types:
     * Users that enjoy playing card matching games.
