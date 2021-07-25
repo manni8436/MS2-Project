@@ -126,7 +126,7 @@ function flipCard() {
             }, 1000);
         }
     }
-    pushScore()
+    pushScore();
 }
 
 let scoreArea = document.getElementById("score");
