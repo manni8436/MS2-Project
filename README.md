@@ -83,7 +83,7 @@ I also didn't want to overload the user with the color scheme, so as not to stra
 
 ## COLOR SCHEME
 
-My overall color scheme used throught out the site.
+My overall color scheme used throughtout the site.
 
 ![Orange](assets/docs/orange.png) ![Grey](assets/docs/grey.png) ![Black](assets/docs/blackcolor.png) 
 
