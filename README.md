@@ -85,11 +85,11 @@ I also didn't want to overload the user with the color scheme, so as not to stra
 
 My overall color scheme used throughtout the site.
 
-![Orange](assets/docs/orange.png) ![Grey](assets/docs/grey.png) ![Black](assets/docs/blackcolor.png) 
+![orange](assets/docs/orange.png) ![Grey](assets/docs/grey.png) ![Black](assets/docs/blackcolor.png) 
 
 * The colours below were used for the hover affect and the colours of the buttons.
 
-![Green](assets/docs/greenhovercolor.png) ![Yellow](assets/docs/yellowbuttoncolor.png) ![Red](assets/docs/redbuttoncolor.png)
+![green](assets/docs/greenhovercolor.png) ![Yellow](assets/docs/yellowbuttoncolor.png) ![Red](assets/docs/redbuttoncolor.png)
 
 ## WIREFRAMES
 
@@ -98,11 +98,9 @@ My overall color scheme used throughtout the site.
 ## FEATURES
 
 ## FUTURE IMPLEMENTATIONS
-* to add a timer that counts to zero
-* scores which will keep track of the scores while playing
-* score board which will keep track of all the games been played and scores
-* reset/restart button
-* music in the background
+* To add a timer that counts to zero
+* Score board which will keep track of all the games been played and scores
+* Music in the background
 
 ## KNOWN BUGS
 1. While styling my page, I realised that my footer was a lighter colour then my header, upon looking into dev tools and to see if there is any issues, 
@@ -116,33 +114,33 @@ none were found, I also changed to a different colour to see if it would do the 
 
 ## SOLVED BUGS
 
-1. While trying to get my javascript functionality working, a bug was found and upon looking into the console the error below was given.
+1. While trying to get my javascript functionality working, I found a bug relating to referencing my boxes variable, as shown below with the error messages.
 
 ![condole log](assets/docs/consolelogbug1.png)
 ![html code](assets/docs/htmlcode.png) 
 ![javascript code](assets/docs/jscode.png) 
 
-2. a second bug below was found due to the issue above
+A second bug below was found due to the issue above
 
 ![uncaught type error box style is undefined](assets/docs/uncaughttypeerrorboxstyleisundefined.png)
 ![condole log](assets/docs/consolelogbug2.png)
 
-after looking closely at these bugs, I had to change my for loop inside the function, I have added error images above and the solution code below for documentation.
+After looking closely at these bugs, I had to change my for loop inside the function, I have added error images above and the solution code below for documentation.
 
 ![solution code](assets/docs/solutioncode.png)
 
-3. A bug was found when additional boxes were added, the bug itself seems to be highlighting in between the tiles, click once and a small area is highlighted
+2. A bug was found when additional boxes were added, the bug itself seems to be highlighting in between the tiles, click once and a small area is highlighted
 but if you click again then multiple areas get highlighted.
 
 ![highlighting bug](assets/docs/highlightingbug.png)
 
 To try to resolve this bug, I have tried the following `whitespace: nowrap`, `white-space: unset;`, `white-space: normal;` and `white-space: pre-wrap;` 
 
-also tried to use the JQuery code below.
+Also tried to use the JQuery code below.
 
 ![JQuery code](assets/docs/jquerycode.png)
 
-none have worked as of yet.
+None have worked as of yet.
 
 4. While trying to get my JavaScript functionality and upon getting my onclick randomisation function to work a bug was found which made my onclick function stop working which are below.
 
