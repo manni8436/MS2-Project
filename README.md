@@ -18,8 +18,8 @@ audience is anyone who is interested in games and also Egyptian Mythology. The t
 
     * Easy to use layout.
     * Easy to read instructions.
-    * A bright but sutle colour scheme that is eye catching but isnt overwhelming.
-    * Hover feature with a background color indicator that is clear and precise to be used while choosing a selection.
+    * A bright but subtle color scheme that is eye catching but isn't overwhelming.
+    * Hover feature with a background color indicator that is clear and precise, to be used while making a selection.
     
 ## FINAL DESIGN
 
