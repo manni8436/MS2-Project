@@ -113,12 +113,14 @@ function flipCard() {
             cardOne = this.id;
             cardOneColor = document.getElementById(cardOne).style.backgroundColor;
             j++; 
+            pushMoves();
             busy = false;
         } else {
             cardTwo = this.id;
             cardTwoColor = document.getElementById(cardTwo).style.backgroundColor;
             if (cardOne != cardTwo) {
                 j++; 
+                pushMoves();
             }
             setTimeout(function() {
                 if (cardOneColor == cardTwoColor && cardOne != cardTwo) {
@@ -147,6 +149,10 @@ function pushScore() {
     } else if (selectedLevel == "hard") {
         scoreArea.innerText = `${score} / 12`;
     }
+}
+
+function pushMoves() {
+    document.getElementById("movescounter").innerHTML = "moves: ${j}";
 }
 
 let resetButton = document.getElementById("reset");
