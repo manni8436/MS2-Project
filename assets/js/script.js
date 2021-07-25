@@ -62,8 +62,7 @@ function resetCards() {
 
 function selectLevel() {
     selectedLevel = this.id; // Whichever button they click, get that id
-    j = 1;
-    score = 0;
+    
     if (selectedLevel == "easy") {
         easyLevel.classList.remove("hide"); // Set the amount of cards depending on which level was chosen
         mediumLevel.classList.add("hide");
@@ -77,9 +76,7 @@ function selectLevel() {
         mediumLevel.classList.add("hide");
         hardLevel.classList.remove("hide");
     }
-    resetCards();
-    sortColors();
-    pushScore();
+    resetGame();
 }
 
 for (let i = 0; i < levelSelectors.length; i++) {
@@ -152,7 +149,7 @@ function pushScore() {
 }
 
 function pushMoves() {
-    document.getElementById("movescounter").innerHTML = `moves: ${j-1}`;
+    document.getElementById("movescounter").innerHTML = `moves: ${j - 1}`;
 }
 
 let resetButton = document.getElementById("reset");
@@ -160,12 +157,13 @@ let resetButton = document.getElementById("reset");
 resetButton.addEventListener("click", resetGame);
 
 function resetGame() {
-    j = 0;
+    j = 1;
     score = 0;
     winModal.style.display = "none";
     resetCards();
     sortColors();
     pushScore();
+    pushMoves();
 };
 
 const closeButton = document.getElementById("close");
