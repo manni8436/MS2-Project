@@ -244,9 +244,9 @@ The W3C Markup Validator and W3C CSS Validator was used to validate my project t
 * W3C CSS Validator Results
     * [CSS](http://www.css-validator.org/validator?uri=https%3A%2F%2Fmanni8436.github.io%2FMS2-Project%2F&profile=css21&usermedium=all&warning=1&lang=en)
 * JavaScript Validator
-    * ![JSHint 1](assets/docs/JSHint1.png)
-    * ![JSHint 2](assets/docs/JSHint2.png)
-    * ![JSHint 3](assets/docs/JSHint3.png) 
+    ![JSHint 1](assets/docs/JSHint1.png)
+    ![JSHint 2](assets/docs/JSHint2.png)
+    ![JSHint 3](assets/docs/JSHint3.png) 
 
 ### FULL TESTING
 
