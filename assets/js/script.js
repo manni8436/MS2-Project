@@ -152,7 +152,7 @@ function pushScore() {
 }
 
 function pushMoves() {
-    document.getElementById("movescounter").innerHTML = `moves: ${j}`;
+    document.getElementById("movescounter").innerHTML = `moves: ${j-1}`;
 }
 
 let resetButton = document.getElementById("reset");
