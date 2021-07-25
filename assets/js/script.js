@@ -128,7 +128,6 @@ function flipCard() {
     pushScore()
 }
 
-
 let scoreArea = document.getElementById("score");
 
 function pushScore() {
@@ -154,6 +153,7 @@ function resetGame() {
          score = 0;
     }
     winModal.style.display = "none"
+    sortColors();
 };
 
 const closeButton = document.getElementById("close");
