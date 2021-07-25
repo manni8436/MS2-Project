@@ -110,7 +110,8 @@ function flipCard() {
             cardTwo = this.id;
             cardTwoColor = document.getElementById(cardTwo).style.backgroundColor;
             if (cardOne != cardTwo) {
-                j++; }
+                j++; 
+            }
             setTimeout(function() {
                 if (cardOneColor == cardTwoColor && cardOne != cardTwo) {
                     document.getElementById(cardOne).style.backgroundColor = "transparent";
