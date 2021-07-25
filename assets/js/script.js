@@ -53,6 +53,13 @@ function sortColors() {
     }, 500);
 }
 
+function resetCards() {
+    for (let k = 0; k < cards.length; k++) {
+        cards[k].classList.add("card-back");
+        cards[k].classList.remove("card-front");
+    }
+}
+
 function selectLevel() {
     selectedLevel = this.id; // Whichever button they click, get that id
     j = 1;
@@ -70,6 +77,7 @@ function selectLevel() {
         mediumLevel.classList.add("hide");
         hardLevel.classList.remove("hide");
     }
+    resetCards();
     sortColors();
     pushScore();
 }
