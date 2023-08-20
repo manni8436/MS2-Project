@@ -24,10 +24,8 @@ h1 {
     display: none;
     position: fixed;
     top: 250px;
-    left: 340px;
     z-index: 1;
     height: 50%;
-    width: 50%;
     text-align: center;
     border-radius: 10px;
     border: 5px #ff9a18 solid;

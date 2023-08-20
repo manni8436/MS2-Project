@@ -20,7 +20,7 @@
       "**/CVS": true
    },
    "files.autoSave": "afterDelay",
-   "workbench.colorTheme": "Sublime VSCode Theme",
+   "workbench.colorTheme": "Neon Black Silver",
 "editor.defaultFormatter": "HookyQR.beautify",
 "editor.autoSave": "on"
 }
