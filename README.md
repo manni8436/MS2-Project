@@ -1,5 +1,3 @@
-Milestone Project: Interactive Frontend Development 
-
 # MS2-Project - Pharaoh`s Match
 
 ![GitHub contributors](https://img.shields.io/github/contributors/manni8436/MS2-Project)
@@ -11,58 +9,59 @@ Milestone Project: Interactive Frontend Development
 
 ## INITIAL DESIGN
 
-* My initial idea for this project was to create a fun, interactive card matching game with a Egyptian theme that can be enjoyed by anyone. My target 
-audience is anyone who is interested in games and also Egyptian Mythology. The target demographic is incredibly mixed and covers people of all ages and genders.
+* My initial idea for this project was to create a fun, interactive card-matching game with an Egyptian theme that can be enjoyed by anyone. My target audience is anyone interested in games and Egyptian Mythology. The target demographic is incredibly mixed and covers people of all ages and genders.
 
 * The main features that I wanted to include are:
 
-    * Easy to use layout.
-    * Easy to read instructions.
-    * A bright but subtle color scheme that is eye catching but isn't overwhelming.
-    * Hover feature with a background color indicator that is clear and precise, to be used while making a selection.
-    
+  * Easy to use layout.
+  * Easy to read instructions.
+  * A bright but subtle color scheme that is eye-catching but isn't overwhelming.
+  * Hover feature with a background color indicator that is clear and precise, to be used while making a selection.
+  * A score counter allows the user to know how many points they have received.
+  * A moves counter allows the user to know how many moves they have taken to complete the game.
+
 ## FINAL DESIGN
 
-![Final project image home page]() <!--add image after project has been completed-->
+![Final project image home page](/assets/docs/responsiveimage.png)
 
 ## CONTENTS
 
-* [User Experience](#USER-EXPERIENCE-(UX))  
-    * [User Stories](#USER-STORIES)    
+* [User Experience](#user-experience)  
+  * [User Stories](#user-stories)
 
-* [Design](#DESIGN)   
-    * [Color Scheme](#COLOR-SCHEME)
+* [Design](#design)
+  * [Color Scheme](#color-scheme)
 
-* [Wireframes](#WIREFRAMES) 
+* [Wireframes](#wireframes)
 
-* [Technologies Used](#TECHNOLOGIES-USED) 
-    * [Languages Used](#LANGUAGES-USED)
-    * [Programs Used](#PROGRAMS-USED)
+* [Technologies Used](#technologies-used)
+  * [Languages Used](#languages-used)
+  * [Programs Used](#programs-used)
 
-* [Deployment](#DEPLOYMENT)
-    * [Initial Deployment](#INITIAL-DEPLOYMENT)
-    * [How To Fork A Repository](#HOW-TO-FORK-A-REPOSITORY)
-    * [How To Clone A Repository](#HOW-TO-CLONE-A-REPOSITORY)
-    * [How To Make A Local Clone](#HOW-TO-MAKE-A-LOCAL-CLONE)
+* [Deployment](#deployment)
+  * [Initial Deployment](#initial-deployment)
+  * [How To Fork A Repository](#how-to-fork-a-repository)
+  * [How To Clone A Repository](how-to-clone-a-repository)
+  * [How To Make A Local Clone](how-to-make-a-local-clone)
 
-* [Testing](#TESTING)
-    * [Code Validators](#CODE-VALIDATORS)
+* [Testing](#testing)
+  * [Code Validators](#code-validators)
 
-* [Content](#CONTENT)
-    * [Images](#IMAGES)
-    * [Text Content](#TEXT-CONTENT)
+* [Content](#content)
+  * [Images](#images)
+  * [Text Content](#text-content)
 
-* [Acknowledgements](#ACKNOWLEDGEMENTS)    
+* [Acknowledgements](#acknowledgements)
 
-## USER EXPERIENCE (UX)
+## USER EXPERIENCE
 
-The structure of this site was designed to be simple and easy to use while having a good balance of fun factor and brightness. 
+The structure of this site was designed to be simple and easy to use while having a good balance of fun factor and brightness.
 I also didn't want to overload the user with the color scheme, so as not to strain the user's vision while they are playing.
 
 * The website was designed for the following user types:
-    * Users that enjoy playing card matching games.
-    * Users that have basic knowledge of the Egyptian history.
-    * Users who have a passion and enjoy anything to do with Egyptian mythology.
+  * Users that enjoy playing card matching games.
+  * Users that have basic knowledge of the Egyptian history.
+  * Users who have a passion and enjoy anything to do with Egyptian mythology.
 
 ## USER STORIES
 
@@ -85,11 +84,11 @@ I also didn't want to overload the user with the color scheme, so as not to stra
 
 My overall color scheme used throughtout the site.
 
-![orange](assets/docs/orange.png) ![Grey](assets/docs/grey.png) ![Black](assets/docs/blackcolor.png) 
+![Overall Color Theme](/assets/docs/overallcolortheme.png)
 
-* The colours below were used for the hover affect and the colours of the buttons.
+The colours below were used for the hover affect and the colours of the buttons.
 
-![green](assets/docs/greenhovercolor.png) ![Yellow](assets/docs/yellowbuttoncolor.png) ![Red](assets/docs/redbuttoncolor.png)
+![Hover & Button Color](/assets/docs/hoverandbuttoncolours.png)
 
 ## WIREFRAMES
 
@@ -98,11 +97,13 @@ My overall color scheme used throughtout the site.
 ## FEATURES
 
 ## FUTURE IMPLEMENTATIONS
+
 * To add a timer that counts to zero
-* Score board which will keep track of all the games been played and scores
+* Scoreboard which will keep track of all the games been played and scores
 * Music in the background
 
 ## KNOWN BUGS
+
 1. While styling my page, I realised that my footer was a lighter colour then my header, upon looking into dev tools and to see if there is any issues, 
 none were found, I also changed to a different colour to see if it would do the same and the second colour, the same thing happened.
 
@@ -117,8 +118,8 @@ none were found, I also changed to a different colour to see if it would do the 
 1. While trying to get my javascript functionality working, I found a bug relating to referencing my boxes variable, as shown below with the error messages.
 
 ![condole log](assets/docs/consolelogbug1.png)
-![html code](assets/docs/htmlcode.png) 
-![javascript code](assets/docs/jscode.png) 
+![html code](assets/docs/htmlcode.png)
+![javascript code](assets/docs/jscode.png)
 
 A second bug below was found due to the issue above
 
@@ -134,7 +135,7 @@ but if you click again then multiple areas get highlighted.
 
 ![highlighting bug](assets/docs/highlightingbug.png)
 
-To try to resolve this bug, I have tried the following `whitespace: nowrap`, `white-space: unset;`, `white-space: normal;` and `white-space: pre-wrap;` 
+To try to resolve this bug, I have tried the following `whitespace: nowrap`, `white-space: unset;`, `white-space: normal;` and `white-space: pre-wrap;`
 
 Also tried to use the JQuery code below.
 
@@ -156,30 +157,34 @@ at first I thought that this was a randomisation bug but after trying a few comb
 
 ### LANGUAGES USED
 
-<img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain-wordmark.svg" alt="HTML logo" width="50px" height="50px" />  <img 
-src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg" 
-alt="CSS logo" width="50px" height="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" 
-alt="JavaScript logo" width="50px" height="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/bootstrap/bootstrap-plain-wordmark.svg" 
-alt="Bootstrap logo" height="50px" width="50px" />   
+<img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain-wordmark.svg" alt="HTML logo" width="50px" height="50px" />  
+<img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg" alt="CSS logo" width="50px" height="50px" /> 
+<img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" alt="JavaScript logo" width="50px" height="50px" /> 
+<img src="https://github.com/devicons/devicon/blob/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="Bootstrap logo" height="50px" width="50px" />
 
 ### PROGRAMS USED
 
 #### Font Awesome:
+
 [Font Awesome](https://fontawesome.com/) was using for a few icons used in the footer aspect of the site pages.
 
 #### Google Fonts:
+
 [Google Fonts](https://fonts.google.com/) was used for all the text content on the site pages.
 
 #### GitPod:
+
 GitPod was used to write up the code for my project and using the GitPod terminal to commit everything to GitHub.
-    
+
 #### GitHub:
+
 GitHub is being used to store all the code for this project after being pushed from GitPod.
 
 #### Balsamiq:
 Balsamiq was used in the initial design process to make wireframes.
 
 #### Firefox Developer Tools:
+
 Firefox Developer Tools was used for trouble shooting and trying new visual changes without it affect the current code already created.
 
 ## DEPLOYMENT:
@@ -207,7 +212,7 @@ If you need to make a copy of a repository:
 
 ### HOW TO CLONE A REPOSITORY
 
-If you need to make a clone:    
+If you need to make a clone:
 
 1. Login in to [GitHub](www.github.com).
 2. Fork the repository manni8436/MS2-Project using the steps above in [How To Fork a Repository](#HOW-TO-FORK-A-REPOSITORY).
@@ -220,7 +225,7 @@ If you need to make a clone:
 
 ### HOW TO MAKE A LOCAL CLONE
 
-If you need to make a local clone:   
+If you need to make a local clone:
 
 1. Login in to [GitHub](www.github.com).
 2. Under the repository name, above the list of files, click "Code".
@@ -244,7 +249,7 @@ The W3C Markup Validator and W3C CSS Validator was used to validate my project t
 * JavaScript Validator
     ![JSHint 1](assets/docs/JSHint1.png)
     ![JSHint 2](assets/docs/JSHint2.png)
-    ![JSHint 3](assets/docs/JSHint3.png) 
+    ![JSHint 3](assets/docs/JSHint3.png)
 
 ### FULL TESTING
 
@@ -264,6 +269,10 @@ The W3C Markup Validator and W3C CSS Validator was used to validate my project t
 
 * Images that have been used for this project have been provided below:
 
-    * [Back of cards](https://en.wikipedia.org/wiki/Egyptian_pyramids)
+  * [Back of cards](https://en.wikipedia.org/wiki/Egyptian_pyramids)
+
+### TEXT CONTENT
+
+* All text content was created by myself and did not use any content from any websites.
 
 ## ACKNOWLEDGEMENTS
