@@ -1,11 +1,13 @@
-# MS2-Project - Pharaoh`s Match
+# Pharaoh`s Match
+
+![Final project image home page](/assets/docs/responsiveimage.png)
 
 ![GitHub contributors](https://img.shields.io/github/contributors/manni8436/MS2-Project)
 ![GitHub last commit](https://img.shields.io/github/last-commit/manni8436/MS2-Project)
 ![GitHub language count](https://img.shields.io/github/languages/count/manni8436/MS2-Project)
 ![GitHub top language](https://img.shields.io/github/languages/top/manni8436/MS2-Project)
 
-[Here is a link to the final project](https://manni8436.github.io/MS2-Project)
+Visit the deployed site: [Pharaoh`s Match](https://manni8436.github.io/MS2-Project)
 
 ## INITIAL DESIGN
 
@@ -19,10 +21,6 @@
   * Hover feature with a background color indicator that is clear and precise, to be used while making a selection.
   * A score counter allows the user to know how many points they have received.
   * A moves counter allows the user to know how many moves they have taken to complete the game.
-
-## FINAL DESIGN
-
-![Final project image home page](/assets/docs/responsiveimage.png)
 
 ## CONTENTS
 
