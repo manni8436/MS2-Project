@@ -114,16 +114,16 @@ The colors below were used for the hover effect and the colours of the buttons.
 
 1. While trying to get my javascript functionality working, I found a bug relating to referencing my boxes variable, as shown below with the error messages.
 
-![condole log](assets/docs/consolelogbug1.png)
-![html code](assets/docs/htmlcode.png)
-![javascript code](assets/docs/jscode.png)
+![console log](assets/docs/consolelogbug1.png)
+![HTML code](assets/docs/htmlcode.png)
+![JavaScript code](assets/docs/jscode.png)
 
 A second bug below was found due to the issue above
 
 ![uncaught type error box style is undefined](assets/docs/uncaughttypeerrorboxstyleisundefined.png)
 ![condole log](assets/docs/consolelogbug2.png)
 
-After looking closely at these bugs, I had to change my for loop inside the function, I have added error images above and the solution code below for documentation.
+After looking closely at these bugs, I had to change my for loop inside the function, I have added the error images above and the solution code below for documentation.
 
 ![solution code](assets/docs/solutioncode.png)
 
@@ -146,7 +146,7 @@ None have worked as of yet.
 
 ![random color bug](assets/docs/randomcolorbug.png)
 
-at first I thought that this was a randomisation bug but after trying a few combinations of functions and loops I have realised that infact this is was a onclick bug and a solution code has been found for this bug.
+at first I thought that this was a randomisation bug but after trying a few combinations of functions and loops I realised that in fact this was a onclick bug and a solution code has been found for this bug.
 
 ![solution code for onclick bug](assets/docs/onclickbugsolutioncode.png)
 
@@ -155,15 +155,15 @@ at first I thought that this was a randomisation bug but after trying a few comb
 ### LANGUAGES USED
 
 <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain-wordmark.svg" alt="HTML logo" width="50px" height="50px" />  
-<img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg" alt="CSS logo" width="50px" height="50px" /> 
-<img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" alt="JavaScript logo" width="50px" height="50px" /> 
+<img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg" alt="CSS logo" width="50px" height="50px" />
+<img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" alt="JavaScript logo" width="50px" height="50px" />
 <img src="https://github.com/devicons/devicon/blob/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="Bootstrap logo" height="50px" width="50px" />
 
 ### PROGRAMS USED
 
 #### Font Awesome:
 
-[Font Awesome](https://fontawesome.com/) was using for a few icons used in the footer aspect of the site pages.
+[Font Awesome](https://fontawesome.com/) was used for a few icons used in the footer aspect of the site pages.
 
 #### Google Fonts:
 
@@ -182,19 +182,19 @@ Balsamiq was used in the initial design process to make wireframes.
 
 #### Firefox Developer Tools:
 
-Firefox Developer Tools was used for trouble shooting and trying new visual changes without it affect the current code already created.
+Firefox Developer Tools was used for troubleshooting and trying new visual changes without it affecting the current code already created.
 
 ## DEPLOYMENT:
 
 ### INITIAL DEPLOYMENT
 
-This site was deployed using GitHub Pages with the following the steps below:
+This site was deployed using GitHub Pages with the following steps below:
 
 1. Login or Sign Up to [GitHub](www.github.com).
 2. Create a new repository named "MS2-Project".
 3. Once created, click on "Settings" on the navigation bar under the repository title.
-4. Click on "Pages", on the left hand side below Secrets.
-5. Under "Source", choose which branch you wish to deploy, In most cases it will be "main".
+4. Click on "Pages", on the left-hand side below Secrets.
+5. Under "Source", choose which branch you wish to deploy, In most cases, it will be "main".
 6. Choose which folder to deploy from, generally from "/root".
 7. Click "Save", then wait for it to be deployed. It may take some time for the page to be fully deployed.
 8. The URL will be displayed above the "source" section in GitHub Pages.
@@ -211,7 +211,7 @@ If you need to make a copy of a repository:
 
 If you need to make a clone:
 
-1. Login in to [GitHub](www.github.com).
+1. Login into [GitHub](www.github.com).
 2. Fork the repository manni8436/MS2-Project using the steps above in [How To Fork a Repository](#HOW-TO-FORK-A-REPOSITORY).
 3. Above the file list, click "Code".
 4. Choose if you want to close using HTTPS, SSH or GitHub CLI, then click the copy button to the right.
@@ -224,12 +224,12 @@ If you need to make a clone:
 
 If you need to make a local clone:
 
-1. Login in to [GitHub](www.github.com).
+1. Login into [GitHub](www.github.com).
 2. Under the repository name, above the list of files, click "Code".
 3. Here you can either Clone or Download the repository.
 4. You should close the repository using HTTPS, clicking on the icon to copy the link.
 5. Open Git Bash.
-6. Change the current working directory to the new locaiton, where you want the cloned directory to be.
+6. Change the current working directory to the new location, where you want the cloned directory to be.
 7. Type git clone and then paste the URL you copied in step 4.
 8. Press Enter, and your local clone will be created.
 
@@ -237,16 +237,16 @@ If you need to make a local clone:
 
 ### CODE VALIDATORS
 
-The W3C Markup Validator and W3C CSS Validator was used to validate my project to make sure there were no errors within the site.
+The W3C Markup Validator and W3C CSS Validator were used to validate my project to make sure there were no errors within the site.
 
 * W3C HTML Validator Results
-    * [HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmanni8436.github.io%2FMS2-Project%2F)
+  * [HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmanni8436.github.io%2FMS2-Project%2F)
 * W3C CSS Validator Results
-    * [CSS](http://www.css-validator.org/validator?uri=https%3A%2F%2Fmanni8436.github.io%2FMS2-Project%2F&profile=css21&usermedium=all&warning=1&lang=en)
+  * [CSS](http://www.css-validator.org/validator?uri=https%3A%2F%2Fmanni8436.github.io%2FMS2-Project%2F&profile=css21&usermedium=all&warning=1&lang=en)
 * JavaScript Validator
-    ![JSHint 1](assets/docs/JSHint1.png)
-    ![JSHint 2](assets/docs/JSHint2.png)
-    ![JSHint 3](assets/docs/JSHint3.png)
+  ![JSHint 1](assets/docs/JSHint1.png)
+  ![JSHint 2](assets/docs/JSHint2.png)
+  ![JSHint 3](assets/docs/JSHint3.png)
 
 ### FULL TESTING
 
