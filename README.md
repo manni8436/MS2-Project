@@ -28,7 +28,7 @@ Visit the deployed site: [Pharaoh`s Match](https://manni8436.github.io/MS2-Proje
   * [User Stories](#user-stories)
 
 * [Design](#design)
-  * [Color Scheme](#color-scheme)
+  * [Colour Scheme](#colour-scheme)
 
 * [Wireframes](#wireframes)
 
@@ -49,7 +49,7 @@ Visit the deployed site: [Pharaoh`s Match](https://manni8436.github.io/MS2-Proje
   * [Images](#images)
   * [Text Content](#text-content)
 
-* [Acknowledgements](#acknowledgements)
+* [Acknowledgments](#acknowledgments)
 
 ## USER EXPERIENCE
 
@@ -57,34 +57,34 @@ The structure of this site was designed to be simple and easy to use while havin
 I also didn't want to overload the user with the color scheme, so as not to strain the user's vision while they are playing.
 
 * The website was designed for the following user types:
-  * Users that enjoy playing card matching games.
-  * Users that have basic knowledge of the Egyptian history.
+  * Users that enjoy playing card-matching games.
+  * Users that have basic knowledge of Egyptian history.
   * Users who have a passion and enjoy anything to do with Egyptian mythology.
 
 ## USER STORIES
 
-#### CLIENT GOALS
+### CLIENT GOALS
 
 * The site needs to be easily accessible.
-* Manouvering around the site to be simple and straightforward to use.
-* The site to be easy to read, understandable and be able to see all images clearly.
-* The site to have clear indication of what has been selected while playing.
+* Maneuvering around the site to be straightforward to use.
+* The site is easy to read, understandable and sees all images correctly.
+* The site to have a clear indication of what has been selected while playing.
 
-#### FIRST TIME VISITORS
+### FIRST TIME VISITORS
 
 * I want the site to be easy to understand on how to navigate throughout the site.
 * I want the instructions to be clear, understandable and easily read.
-* I want the first time user to be able to understand how to play quickly so as not to get frustrated.
+* I want the first-time user to be able to understand how to play quickly so as not to get frustrated.
 
 ## DESIGN
 
-## COLOR SCHEME
+## COLOUR SCHEME
 
-My overall color scheme used throughtout the site.
+This color scheme was used throughout the site.
 
-![Overall Color Theme](/assets/docs/overallcolortheme.png)
+![Overall Colour Theme](/assets/docs/overallcolortheme.png)
 
-The colours below were used for the hover affect and the colours of the buttons.
+The colors below were used for the hover effect and the colours of the buttons.
 
 ![Hover & Button Color](/assets/docs/hoverandbuttoncolours.png)
 
@@ -96,14 +96,13 @@ The colours below were used for the hover affect and the colours of the buttons.
 
 ## FUTURE IMPLEMENTATIONS
 
-* To add a timer that counts to zero
-* Scoreboard which will keep track of all the games been played and scores
-* Music in the background
+* Add a timer that counts to zero.
+* Scoreboard which will keep track of all the games being played and scores.
+* Music in the background.
 
 ## KNOWN BUGS
 
-1. While styling my page, I realised that my footer was a lighter colour then my header, upon looking into dev tools and to see if there is any issues, 
-none were found, I also changed to a different colour to see if it would do the same and the second colour, the same thing happened.
+1. While styling my page, I realised that my footer was a lighter colour than my header, upon looking into dev tools to see if there is any issues, none were found, I also changed to a different colour to see if it would do the same and the second colour, the same thing happened.
 
 ![orange header and footer code](assets/docs/headerandfootercolorcodeorange.png)
 ![orange header and footer styling](assets/docs/headerandfootercolorbugorange.png)
@@ -273,4 +272,4 @@ The W3C Markup Validator and W3C CSS Validator was used to validate my project t
 
 * All text content was created by myself and did not use any content from any websites.
 
-## ACKNOWLEDGEMENTS
+## ACKNOWLEDGMENTS

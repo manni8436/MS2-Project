@@ -22,5 +22,11 @@
    "files.autoSave": "afterDelay",
    "workbench.colorTheme": "Neon Black Silver",
 "editor.defaultFormatter": "HookyQR.beautify",
-"editor.autoSave": "on"
+"editor.autoSave": "on",
+"cSpell.words": [
+   "COLOUR",
+   "colours",
+   "realised",
+   "WIREFRAMES"
+]
 }
