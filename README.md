@@ -25,29 +25,24 @@ My initial idea for this project was to create a fun, interactive card-matching 
 
 * [User Experience](#user-experience)  
   * [User Stories](#user-stories)
-
 * [Design](#design)
   * [Colour Scheme](#colour-scheme)
-
 * [Wireframes](#wireframes)
-
+* [Features](#features)
+* [Known Bugs](#known-bugs)
 * [Technologies Used](#technologies-used)
   * [Languages Used](#languages-used)
   * [Programs Used](#programs-used)
-
 * [Deployment](#deployment)
   * [Initial Deployment](#initial-deployment)
   * [How To Fork A Repository](#how-to-fork-a-repository)
   * [How To Clone A Repository](how-to-clone-a-repository)
   * [How To Make A Local Clone](how-to-make-a-local-clone)
-
 * [Testing](#testing)
   * [Code Validators](#code-validators)
-
 * [Content](#content)
   * [Images](#images)
   * [Text Content](#text-content)
-
 * [Acknowledgments](#acknowledgments)
 
 ## USER EXPERIENCE
@@ -103,10 +98,11 @@ The colors below were used for the hover effect and the colours of the buttons.
 
 <!-- 1. While styling my page, I realised that my footer was a lighter colour than my header, upon looking into dev tools to see if there is any issues, none were found, I also changed to a different colour to see if it would do the same and the second colour, the same thing happened. -->
 
-|  Bug Encountered         | Code                  | Site Image |
+|  Bug Encountered         | Code                  | Live Site Image |
 | :----------------------: | :-------------------: | :--------: |
 |  While styling my page, I realised that my footer was a lighter colour than my header, upon looking into dev tools to see if there is any issues, none were found | ![orange header and footer code](assets/docs/headerandfootercolorcodeorange.png) | ![orange header and footer styling](assets/docs/headerandfootercolorbugorange.png)  |
 | As per bug above, I changed to a different colour to see if this issue would be replicated, as suspected, The issue was confirmed. | ![pink header and footer code](assets/docs/headerandfootercolorbugcodepink.png)| ![pink header and footer styling](assets/docs/headerandfootercolorbugpink.png)    |
+| A bug was found when additional boxes were added, the bug itself seems to be highlighting in between the tiles, click once and a small area is highlighted but if you click again then multiple areas get highlighted. To try to resolve this bug, I have tried the following `whitespace: nowrap`, `white-space: unset;`, `white-space: normal;` and `white-space: pre-wrap;` | Also Attempted to use this JQuery code ![JQuery code](assets/docs/jquerycode.png), However none have worked so far. | ![highlighting bug](assets/docs/highlightingbug.png)|
 
 <!-- ![orange header and footer code](assets/docs/headerandfootercolorcodeorange.png) -->
 <!-- ![orange header and footer styling](assets/docs/headerandfootercolorbugorange.png) -->
@@ -116,43 +112,49 @@ The colors below were used for the hover effect and the colours of the buttons.
 
 ## SOLVED BUGS
 
-1. While trying to get my javascript functionality working, I found a bug relating to referencing my boxes variable, as shown below with the error messages.
+|  Bug Encountered         | HTML Code    | JavaScript Code | Console Log | Live Site Image | Solution ||
+|:------------------------:|:------------:|-------:|:----------:|:-----------:|:--------:|:------------:|
+|  While trying to get my javascript functionality working, I found a bug relating to referencing my boxes variable, as shown below with the error messages.|![HTML code](assets/docs/htmlcode.png)|![JavaScript code](assets/docs/jscode.png)|![console log](assets/docs/consolelogbug1.png)|
+|A second bug was found due to the issue above, After looking closely at these bugs, I had to change my for loop inside the function.|||![console log](assets/docs/consolelogbug2.png)||![solution code](assets/docs/solutioncode.png)|
+|While trying to get my JavaScript functionality and upon getting my onclick randomisation function to work a bug was found which made my onclick function stop working. At first I thought that this was a randomisation bug but after trying a few combinations of functions and loops I realised that in fact this was a onclick bug and a solution code has been found for this bug.|![random color bug code](assets/docs/randomcolorbugcode.png)|||![random color bug](assets/docs/randomcolorbug.png)|![solution code for onclick bug](assets/docs/onclickbugsolutioncode.png)|
 
-![console log](assets/docs/consolelogbug1.png)
-![HTML code](assets/docs/htmlcode.png)
-![JavaScript code](assets/docs/jscode.png)
+<!-- 1. While trying to get my javascript functionality working, I found a bug relating to referencing my boxes variable, as shown below with the error messages. -->
 
-A second bug below was found due to the issue above
+<!-- ![HTML code](assets/docs/htmlcode.png) -->
+<!-- ![JavaScript code](assets/docs/jscode.png) -->
+<!-- ![console log](assets/docs/consolelogbug1.png) -->
 
-![uncaught type error box style is undefined](assets/docs/uncaughttypeerrorboxstyleisundefined.png)
-![condole log](assets/docs/consolelogbug2.png)
+<!-- A second bug below was found due to the issue above -->
 
-After looking closely at these bugs, I had to change my for loop inside the function, I have added the error images above and the solution code below for documentation.
+<!-- ![uncaught type error box style is undefined](assets/docs/uncaughttypeerrorboxstyleisundefined.png) -->
+<!-- ![console log](assets/docs/consolelogbug2.png) -->
 
-![solution code](assets/docs/solutioncode.png)
+<!-- After looking closely at these bugs, I had to change my for loop inside the function, I have added the error images above and the solution code below for documentation. -->
 
-2. A bug was found when additional boxes were added, the bug itself seems to be highlighting in between the tiles, click once and a small area is highlighted
-but if you click again then multiple areas get highlighted.
+<!-- ![solution code](assets/docs/solutioncode.png) -->
 
-![highlighting bug](assets/docs/highlightingbug.png)
+<!-- 1. A bug was found when additional boxes were added, the bug itself seems to be highlighting in between the tiles, click once and a small area is highlighted
+but if you click again then multiple areas get highlighted. -->
 
-To try to resolve this bug, I have tried the following `whitespace: nowrap`, `white-space: unset;`, `white-space: normal;` and `white-space: pre-wrap;`
+<!-- ![highlighting bug](assets/docs/highlightingbug.png) -->
 
-Also tried to use the JQuery code below.
+<!-- To try to resolve this bug, I have tried the following `whitespace: nowrap`, `white-space: unset;`, `white-space: normal;` and `white-space: pre-wrap;` -->
+
+<!-- Also tried to use the JQuery code below.
 
 ![JQuery code](assets/docs/jquerycode.png)
 
-None have worked as of yet.
+None have worked as of yet. -->
 
-4. While trying to get my JavaScript functionality and upon getting my onclick randomisation function to work a bug was found which made my onclick function stop working which are below.
+<!-- 1. While trying to get my JavaScript functionality and upon getting my onclick randomisation function to work a bug was found which made my onclick function stop working which are below. -->
 
-![random color bug code](assets/docs/randomcolorbugcode.png)
+<!-- ![random color bug code](assets/docs/randomcolorbugcode.png) -->
 
-![random color bug](assets/docs/randomcolorbug.png)
+<!-- ![random color bug](assets/docs/randomcolorbug.png) -->
 
-at first I thought that this was a randomisation bug but after trying a few combinations of functions and loops I realised that in fact this was a onclick bug and a solution code has been found for this bug.
+<!-- at first I thought that this was a randomisation bug but after trying a few combinations of functions and loops I realised that in fact this was a onclick bug and a solution code has been found for this bug. -->
 
-![solution code for onclick bug](assets/docs/onclickbugsolutioncode.png)
+<!-- ![solution code for onclick bug](assets/docs/onclickbugsolutioncode.png) -->
 
 ## TECHNOLOGIES USED
 
