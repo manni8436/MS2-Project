@@ -106,7 +106,6 @@ The colors below were used for the hover effect and the colours of the buttons.
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 ### VERSION CONTROL
 
@@ -116,8 +115,7 @@ The colors below were used for the hover effect and the colours of the buttons.
 
 ### FRAMESWORKS & LIBRARIES
 
-
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 ### BROWSERS
 ![Firefox](https://img.shields.io/badge/Firefox-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white)
@@ -186,16 +184,15 @@ If you need to make a local clone:
 
 ### CODE VALIDATORS
 
-The W3C Markup Validator and W3C CSS Validator were used to validate my project to make sure there were no errors within the site.
+The W3C Markup and CSS Validators were used to validate my project to make sure there were no errors within the site.
 
-* W3C HTML Validator Results
-  * [HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmanni8436.github.io%2FMS2-Project%2F)
-* W3C CSS Validator Results
-  * [CSS](http://www.css-validator.org/validator?uri=https%3A%2F%2Fmanni8436.github.io%2FMS2-Project%2F&profile=css21&usermedium=all&warning=1&lang=en)
-* JavaScript Validator
-  ![JSHint 1](assets/docs/JSHint1.png)
-  ![JSHint 2](assets/docs/JSHint2.png)
-  ![JSHint 3](assets/docs/JSHint3.png)
+|  Code Validated          |  Validator Results  ||
+| :----------------------: | :-: | :------------: |
+| ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)|![HTML Validator Image](assets/docs/htmlvalidator.png) |
+| ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)|![CCS Validator Image](/assets/docs/cssvalidator.png) |
+| ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)|![JSHint 1](assets/docs/JSHint1.png)| |
+| |![JSHint 1](assets/docs/JSHint2.png)| |
+| |![JSHint 1](assets/docs/JSHint3.png)| |
 
 ### FULL TESTING
 
