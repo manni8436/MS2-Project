@@ -11,10 +11,9 @@ Visit the deployed site: [Pharaoh`s Match](https://manni8436.github.io/MS2-Proje
 
 ## INITIAL DESIGN
 
-* My initial idea for this project was to create a fun, interactive card-matching game with an Egyptian theme that can be enjoyed by anyone. My target audience is anyone interested in games and Egyptian Mythology. The target demographic is incredibly mixed and covers people of all ages and genders.
+My initial idea for this project was to create a fun, interactive card-matching game with an Egyptian theme that can be enjoyed by anyone. My target audience is anyone interested in games and Egyptian Mythology. The target demographic is incredibly mixed and covers people of all ages and genders.
 
 * The main features that I wanted to include are:
-
   * Easy to use layout.
   * Easy to read instructions.
   * A bright but subtle color scheme that is eye-catching but isn't overwhelming.
@@ -102,10 +101,14 @@ The colors below were used for the hover effect and the colours of the buttons.
 
 ## KNOWN BUGS
 
-1. While styling my page, I realised that my footer was a lighter colour than my header, upon looking into dev tools to see if there is any issues, none were found, I also changed to a different colour to see if it would do the same and the second colour, the same thing happened.
+<!-- 1. While styling my page, I realised that my footer was a lighter colour than my header, upon looking into dev tools to see if there is any issues, none were found, I also changed to a different colour to see if it would do the same and the second colour, the same thing happened. -->
 
-![orange header and footer code](assets/docs/headerandfootercolorcodeorange.png)
-![orange header and footer styling](assets/docs/headerandfootercolorbugorange.png)
+|  Bug Encountered         | Code                  | Site Image |
+| :----------------------: | :-------------------: | :--------: |
+|  While styling my page, I realised that my footer was a lighter colour than my header, upon looking into dev tools to see if there is any issues, none were found, I also changed to a different colour to see if it would do the same and the second colour, the same thing happened. | ![orange header and footer code](assets/docs/headerandfootercolorcodeorange.png) | ![orange header and footer styling](assets/docs/headerandfootercolorbugorange.png)  |
+
+<!-- ![orange header and footer code](assets/docs/headerandfootercolorcodeorange.png) -->
+<!-- ![orange header and footer styling](assets/docs/headerandfootercolorbugorange.png) -->
 
 ![orange header and footer code](assets/docs/headerandfootercolorbugcodepink.png)
 ![orange header and footer styling](assets/docs/headerandfootercolorbugpink.png)
@@ -212,7 +215,7 @@ If you need to make a copy of a repository:
 If you need to make a clone:
 
 1. Login into [GitHub](www.github.com).
-2. Fork the repository manni8436/MS2-Project using the steps above in [How To Fork a Repository](#HOW-TO-FORK-A-REPOSITORY).
+2. Fork the repository manni8436/MS2-Project using the steps above in [How To Fork a Repository](#how-to-fork-a-repository).
 3. Above the file list, click "Code".
 4. Choose if you want to close using HTTPS, SSH or GitHub CLI, then click the copy button to the right.
 5. Open Git Bash.
