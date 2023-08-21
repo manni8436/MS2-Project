@@ -98,6 +98,7 @@ The colors below were used for the hover effect and the colours of the buttons.
 |  While trying to get my javascript functionality working, I found a bug relating to referencing my boxes variable, as shown below with the error messages.|![HTML code](assets/docs/htmlcode.png)|![JavaScript code](assets/docs/jscode.png)|![console log](assets/docs/consolelogbug1.png)|
 |A second bug was found due to the issue above, After looking closely at these bugs, I had to change my for loop inside the function.|![console log](assets/docs/consolelogbug2.png)|![solution code](assets/docs/solutioncode.png)|
 |While working on my project functionality, and upon getting my onclick randomisation function to work, a bug was found which made this functionality stop working. At first I was under the assumption that it was a randomisation bug, however after trying a few combinations of functions and loops, I had come to the conclusion that it was an onclick bug and a solution was found.|![random color bug code](assets/docs/randomcolorbugcode.png)|![solution code for onclick bug](assets/docs/onclickbugsolutioncode.png)|
+|While working on a modal responsiveness issue, I noticed an issue where when the game initially loads, the scores would start on **0/10**. However, as soon as we click on the first card to begin the game, the scores change from **0/10** to **0/8**. At first I thought it was a bug, but after a closer look at my code, I realised it was a typo issue in my HTML code.|![scores typo error image](/assets/docs/scorestypoerror.png)|![solution code for typo error](/assets/docs/fixedscoreserrortypo.png)|
 
 ## TECHNOLOGIES USED
 
@@ -118,12 +119,13 @@ The colors below were used for the hover effect and the colours of the buttons.
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 ### BROWSERS
+
 ![Firefox](https://img.shields.io/badge/Firefox-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white)
 ![Google Chrome](https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white)
 ![Edge](https://img.shields.io/badge/Edge-0078D7?style=for-the-badge&logo=Microsoft-edge&logoColor=white)
 ![Safari](https://img.shields.io/badge/Safari-000000?style=for-the-badge&logo=Safari&logoColor=white)
 
-### WIREFRAMES
+### WIREFRAMING
 
 ![Balsamiq](https://img.shields.io/badge/Balsamiq%20-%23A60000.svg?&style=for-the-badge&logo=Balsamiq&logoColor=FFFFFF)
 
@@ -200,7 +202,7 @@ The W3C Markup and CSS Validators were used to validate my project to make sure 
 
 ### LIGHTHOUSE
 
-* I tested my website using Firefox Developer Tools Lighthouse feature, and received the results below:
+I tested my website using the Firefox Developer Tools Lighthouse feature, and received the results below:
 
 ### DESKTOP
 
@@ -210,12 +212,19 @@ The W3C Markup and CSS Validators were used to validate my project to make sure 
 
 ### IMAGES
 
-* Images that have been used for this project have been provided below:
-
-  * [Back of cards](https://en.wikipedia.org/wiki/Egyptian_pyramids)
+Images that have been used for this project have been provided below:
+  
+[![back of card image](assets/image/pyramids.jpg)](https://en.wikipedia.org/wiki/Egyptian_pyramids)
 
 ### TEXT CONTENT
 
-* All text content was created by myself and did not use any content from any websites.
+All text content was created by myself and did not use any content from any websites.
 
 ## ACKNOWLEDGMENTS
+
+I would like to give a big thanks to [Chris Quinn](https://github.com/10xOXR) for all his help, effort, guidance
+and patience he has provided during this project.
+
+I would also like to thank [Abi Harrison](https://github.com/Abibubble) for all her support, advice, guidance, and push to keep me motivated during stressful times, and also for taking all the screenshots for me.
+
+I would also like to thank [Dave Horrocks](https://github.com/DaveyJH) for all his support, problems solving skills, logical thinking, fun and laughs on our calls during this project.
