@@ -105,13 +105,14 @@ The colors below were used for the hover effect and the colours of the buttons.
 
 |  Bug Encountered         | Code                  | Site Image |
 | :----------------------: | :-------------------: | :--------: |
-|  While styling my page, I realised that my footer was a lighter colour than my header, upon looking into dev tools to see if there is any issues, none were found, I also changed to a different colour to see if it would do the same and the second colour, the same thing happened. | ![orange header and footer code](assets/docs/headerandfootercolorcodeorange.png) | ![orange header and footer styling](assets/docs/headerandfootercolorbugorange.png)  |
+|  While styling my page, I realised that my footer was a lighter colour than my header, upon looking into dev tools to see if there is any issues, none were found | ![orange header and footer code](assets/docs/headerandfootercolorcodeorange.png) | ![orange header and footer styling](assets/docs/headerandfootercolorbugorange.png)  |
+| As per bug above, I changed to a different colour to see if this issue would be replicated, as suspected, The issue was confirmed. | ![pink header and footer code](assets/docs/headerandfootercolorbugcodepink.png)| ![pink header and footer styling](assets/docs/headerandfootercolorbugpink.png)    |
 
 <!-- ![orange header and footer code](assets/docs/headerandfootercolorcodeorange.png) -->
 <!-- ![orange header and footer styling](assets/docs/headerandfootercolorbugorange.png) -->
 
-![orange header and footer code](assets/docs/headerandfootercolorbugcodepink.png)
-![orange header and footer styling](assets/docs/headerandfootercolorbugpink.png)
+<!-- ![pink header and footer code](assets/docs/headerandfootercolorbugcodepink.png) -->
+<!-- ![pink header and footer styling](assets/docs/headerandfootercolorbugpink.png) -->
 
 ## SOLVED BUGS
 
