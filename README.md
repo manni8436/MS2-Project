@@ -186,8 +186,8 @@ If you need to make a local clone:
 
 The W3C Markup and CSS Validators were used to validate my project to make sure there were no errors within the site.
 
-|  Code Validated          |  Validator Results  ||
-| :----------------------: | :-: | :------------: |
+|  Code Validated     |  Validator Results  |
+| :-----------------: | :-----------------: |
 | ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)|![HTML Validator Image](assets/docs/htmlvalidator.png) |
 | ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)|![CCS Validator Image](/assets/docs/cssvalidator.png) |
 | ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)|![JSHint 1](assets/docs/JSHint1.png)|
