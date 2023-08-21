@@ -24,25 +24,14 @@ My initial idea for this project was to create a fun, interactive card-matching 
 ## CONTENTS
 
 * [User Experience](#user-experience)  
-  * [User Stories](#user-stories)
 * [Design](#design)
-  * [Colour Scheme](#colour-scheme)
 * [Wireframes](#wireframes)
 * [Features](#features)
 * [Known Bugs](#known-bugs)
 * [Technologies Used](#technologies-used)
-  * [Languages Used](#languages-used)
-  * [Programs Used](#programs-used)
 * [Deployment](#deployment)
-  * [Initial Deployment](#initial-deployment)
-  * [How To Fork A Repository](#how-to-fork-a-repository)
-  * [How To Clone A Repository](how-to-clone-a-repository)
-  * [How To Make A Local Clone](how-to-make-a-local-clone)
 * [Testing](#testing)
-  * [Code Validators](#code-validators)
 * [Content](#content)
-  * [Images](#images)
-  * [Text Content](#text-content)
 * [Acknowledgments](#acknowledgments)
 
 ## USER EXPERIENCE
@@ -112,39 +101,39 @@ The colors below were used for the hover effect and the colours of the buttons.
 
 ## TECHNOLOGIES USED
 
-### LANGUAGES USED
+### LANGUAGES
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-### PROGRAMS USED
+### VERSION CONTROL
 
-#### Font Awesome:
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![Gitpod](https://img.shields.io/badge/gitpod-f06611.svg?style=for-the-badge&logo=gitpod&logoColor=white)
 
-[Font Awesome](https://fontawesome.com/) was used for a few icons used in the footer aspect of the site pages.
+### FRAMESWORKS & LIBRARIES
 
-#### Google Fonts:
 
-[Google Fonts](https://fonts.google.com/) was used for all the text content on the site pages.
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-#### GitPod:
+### BROWSERS
+![Firefox](https://img.shields.io/badge/Firefox-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white)
+![Google Chrome](https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white)
+![Edge](https://img.shields.io/badge/Edge-0078D7?style=for-the-badge&logo=Microsoft-edge&logoColor=white)
+![Safari](https://img.shields.io/badge/Safari-000000?style=for-the-badge&logo=Safari&logoColor=white)
 
-GitPod was used to write up the code for my project and using the GitPod terminal to commit everything to GitHub.
+### WIREFRAMES
 
-#### GitHub:
+![Balsamiq](https://img.shields.io/badge/Balsamiq%20-%23A60000.svg?&style=for-the-badge&logo=Balsamiq&logoColor=FFFFFF)
 
-GitHub is being used to store all the code for this project after being pushed from GitPod.
+### SITE DEPLOYMENT
 
-#### Balsamiq:
-Balsamiq was used in the initial design process to make wireframes.
+![GitHub Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)
 
-#### Firefox Developer Tools:
-
-Firefox Developer Tools was used for troubleshooting and trying new visual changes without it affecting the current code already created.
-
-## DEPLOYMENT:
+## DEPLOYMENT
 
 ### INITIAL DEPLOYMENT
 
