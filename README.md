@@ -2,10 +2,10 @@
 
 ![Final project image home page](/assets/docs/responsiveimage.png)
 
-![GitHub contributors](https://img.shields.io/github/contributors/manni8436/MS2-Project)
-![GitHub last commit](https://img.shields.io/github/last-commit/manni8436/MS2-Project)
-![GitHub language count](https://img.shields.io/github/languages/count/manni8436/MS2-Project)
-![GitHub top language](https://img.shields.io/github/languages/top/manni8436/MS2-Project)
+![GitHub last commit](https://img.shields.io/github/last-commit/manni8436/MS2-Project?color=green&style=for-the-badge)
+![GitHub contributors](https://img.shields.io/github/contributors/manni8436/MS2-Project?color=red&style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/manni8436/MS2-Project?color=blue&style=for-the-badge)
+![GitHub top language](https://img.shields.io/github/languages/top/manni8436/MS2-Project?color=yellow&style=for-the-badge)
 
 Visit the deployed site: [Pharaoh`s Match](https://manni8436.github.io/MS2-Project)
 
@@ -96,19 +96,11 @@ The colors below were used for the hover effect and the colours of the buttons.
 
 ## KNOWN BUGS
 
-<!-- 1. While styling my page, I realised that my footer was a lighter colour than my header, upon looking into dev tools to see if there is any issues, none were found, I also changed to a different colour to see if it would do the same and the second colour, the same thing happened. -->
-
 |  Bug Encountered         | Code                  | Live Site Image |
 | :----------------------: | :-------------------: | :-------------: |
 |  While styling my page, I realised that my footer was a lighter colour than my header, upon looking into dev tools to see if there is any issues, none were found | ![orange header and footer code](assets/docs/headerandfootercolorcodeorange.png) | ![orange header and footer styling](assets/docs/headerandfootercolorbugorange.png)  |
 | As per bug above, I changed to a different colour to see if this issue would be replicated, as suspected, The issue was confirmed. | ![pink header and footer code](assets/docs/headerandfootercolorbugcodepink.png)| ![pink header and footer styling](assets/docs/headerandfootercolorbugpink.png)    |
 | A bug was found when additional boxes were added, the bug itself seems to be highlighting in between the tiles, click once and a small area is highlighted but if you click again then multiple areas get highlighted. To try to resolve this bug, I have tried the following `whitespace: nowrap`, `white-space: unset;`, `white-space: normal;` and `white-space: pre-wrap;` | Also Attempted to use this JQuery code ![JQuery code](assets/docs/jquerycode.png), However none have worked so far. | ![highlighting bug](assets/docs/highlightingbug.png)|
-
-<!-- ![orange header and footer code](assets/docs/headerandfootercolorcodeorange.png) -->
-<!-- ![orange header and footer styling](assets/docs/headerandfootercolorbugorange.png) -->
-
-<!-- ![pink header and footer code](assets/docs/headerandfootercolorbugcodepink.png) -->
-<!-- ![pink header and footer styling](assets/docs/headerandfootercolorbugpink.png) -->
 
 ## SOLVED BUGS
 
@@ -118,52 +110,14 @@ The colors below were used for the hover effect and the colours of the buttons.
 |A second bug was found due to the issue above, After looking closely at these bugs, I had to change my for loop inside the function.|![console log](assets/docs/consolelogbug2.png)|![solution code](assets/docs/solutioncode.png)|
 |While working on my project functionality, and upon getting my onclick randomisation function to work, a bug was found which made this functionality stop working. At first I was under the assumption that it was a randomisation bug, however after trying a few combinations of functions and loops, I had come to the conclusion that it was an onclick bug and a solution was found.|![random color bug code](assets/docs/randomcolorbugcode.png)|![solution code for onclick bug](assets/docs/onclickbugsolutioncode.png)|
 
-<!-- 1. While trying to get my javascript functionality working, I found a bug relating to referencing my boxes variable, as shown below with the error messages. -->
-
-<!-- ![HTML code](assets/docs/htmlcode.png) -->
-<!-- ![JavaScript code](assets/docs/jscode.png) -->
-<!-- ![console log](assets/docs/consolelogbug1.png) -->
-
-<!-- A second bug below was found due to the issue above -->
-
-<!-- ![uncaught type error box style is undefined](assets/docs/uncaughttypeerrorboxstyleisundefined.png) -->
-<!-- ![console log](assets/docs/consolelogbug2.png) -->
-
-<!-- After looking closely at these bugs, I had to change my for loop inside the function, I have added the error images above and the solution code below for documentation. -->
-
-<!-- ![solution code](assets/docs/solutioncode.png) -->
-
-<!-- 1. A bug was found when additional boxes were added, the bug itself seems to be highlighting in between the tiles, click once and a small area is highlighted
-but if you click again then multiple areas get highlighted. -->
-
-<!-- ![highlighting bug](assets/docs/highlightingbug.png) -->
-
-<!-- To try to resolve this bug, I have tried the following `whitespace: nowrap`, `white-space: unset;`, `white-space: normal;` and `white-space: pre-wrap;` -->
-
-<!-- Also tried to use the JQuery code below.
-
-![JQuery code](assets/docs/jquerycode.png)
-
-None have worked as of yet. -->
-
-<!-- 1. While trying to get my JavaScript functionality and upon getting my onclick randomisation function to work a bug was found which made my onclick function stop working which are below. -->
-
-<!-- ![random color bug code](assets/docs/randomcolorbugcode.png) -->
-
-<!-- ![random color bug](assets/docs/randomcolorbug.png) -->
-
-<!-- at first I thought that this was a randomisation bug but after trying a few combinations of functions and loops I realised that in fact this was a onclick bug and a solution code has been found for this bug. -->
-
-<!-- ![solution code for onclick bug](assets/docs/onclickbugsolutioncode.png) -->
-
 ## TECHNOLOGIES USED
 
 ### LANGUAGES USED
 
-<img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain-wordmark.svg" alt="HTML logo" width="50px" height="50px" />  
-<img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg" alt="CSS logo" width="50px" height="50px" />
-<img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" alt="JavaScript logo" width="50px" height="50px" />
-<img src="https://github.com/devicons/devicon/blob/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="Bootstrap logo" height="50px" width="50px" />
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 ### PROGRAMS USED
 
