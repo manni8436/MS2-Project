@@ -216,7 +216,7 @@ The W3C Markup and CSS Validators were used to validate my project to make sure 
 
 ### LIGHTHOUSE
 
-I have tested my website on both desktop and mobile, overall I am pleased with the results but there is also room for improvement by reviewing and possibly removing any unused code or eliminating render-blocking resources. With this feedback I will look into improving my lighthouse scores, in particular on mobile.
+I have tested my website on both desktop and mobile, Overall I am pleased with the results however there is still some room for improvement, by reviewing and possibly removing any unused code or eliminating render-blocking resources. With this feedback, I will look into improving my lighthouse scores, in particular on mobile.
 
 ### DESKTOP
 
