@@ -73,7 +73,21 @@ The colors below were used for the hover effect and the colours of the buttons.
 
 ## WIREFRAMES
 
-[Here are my wireframes for desktop, mobile and tablet for this project](assets/wireframes/MSProject2wireframes.pdf)
+<details>
+<summary>Click here to view all wireframes</summary>
+
+|  Device                  | Game Level            | Wireframes      |
+| :----------------------: | :-------------------: | :-------------: |
+| Desktop | Easy | ![Desktop Easy Level](/assets/docs/desktopsite(easylevel).png) |
+| Desktop | Medium | ![Desktop Medium Level](/assets/docs/desktopsite(mediumlevel).png) |
+| Desktop | Hard | ![Desktop Hard Level](/assets/docs/desktopsite(hardlevel).png) |
+| Ipad | Easy | ![Ipad Easy Level](/assets/docs/Ipadsite(easylevel).png) |
+| Ipad | Medium | ![Ipad Medium Level](/assets/docs/Ipadsite(mediumlevel).png) |
+| Ipad | Hard | ![Ipad Hard Level](/assets/docs/Ipadsite(hardlevel).png) |
+| Phone | Easy | ![Phone Easy Level](/assets/docs/phonesite(easylevel).png) |
+| Phone | Medium | ![Phone Medium Level](/assets/docs/phonesite(mediumlevel).png) |
+| Phone | Hard | ![Phone Hard Level](/assets/docs/phonesite(hardlevel).png) |
+</details>
 
 ## FEATURES
 
@@ -214,7 +228,7 @@ I tested my website using the Firefox Developer Tools Lighthouse feature, and re
 
 Images that have been used for this project have been provided below:
   
-[![back of card image](assets/image/pyramids.jpg)](https://en.wikipedia.org/wiki/Egyptian_pyramids)
+[![Back of card image](assets/image/pyramids.jpg)](https://en.wikipedia.org/wiki/Egyptian_pyramids)
 
 ### TEXT CONTENT
 
@@ -227,4 +241,4 @@ and patience he has provided during this project.
 
 I would also like to thank [Abi Harrison](https://github.com/Abibubble) for all her support, advice, guidance, and push to keep me motivated during stressful times, and also for taking all the screenshots for me.
 
-I would also like to thank [Dave Horrocks](https://github.com/DaveyJH) for all his support, problems solving skills, logical thinking, fun and laughs on our calls during this project.
+I would also like to thank [Dave Horrocks](https://github.com/DaveyJH) for all his support, problem-solving skills, logical thinking, fun and laughs on our calls during this project.
