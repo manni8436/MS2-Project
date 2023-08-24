@@ -216,11 +216,15 @@ The W3C Markup and CSS Validators were used to validate my project to make sure 
 
 ### LIGHTHOUSE
 
-I tested my website using the Firefox Developer Tools Lighthouse feature, and received the results below:
+I have tested my website on both desktop and mobile, overall I am pleased with the results but there is also room for improvement by reviewing and possibly removing any unused code or eliminating render-blocking resources. With this feedback I will look into improving my lighthouse scores, in particular on mobile.
 
 ### DESKTOP
 
+![Desktop Lighthouse Results](/assets/docs/desktoplighthouseresults.png)
+
 ### MOBILE
+
+![Mobile Lighthouse Results](/assets/docs/mobilelighthouseresults.png)
 
 ## CONTENT
 
