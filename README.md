@@ -101,7 +101,7 @@ The colors below were used for the hover effect and the colours of the buttons.
 
 |  Bug Encountered         | Code                  | Live Site Image |
 | :----------------------: | :-------------------: | :-------------: |
-|  While styling my page, I realised that my footer was a lighter colour than my header, upon looking into dev tools to see if there is any issues, none were found | <img src="assets/docs/headerandfootercolorcodeorange.png" width="1300"/> | <img src="assets/docs/headerandfootercolorbugorange.png" width="1500"/>  |
+|  While styling my page, I realised that my footer was a lighter colour than my header, upon looking into dev tools to see if there is any issues, none were found | ![orange header and footer code](assets/docs/headerandfootercolorcodeorange.png) | ![orange header and footer styling](assets/docs/headerandfootercolorbugorange.png)  |
 | As per bug above, I changed to a different colour to see if this issue would be replicated, as suspected, The issue was confirmed. | ![pink header and footer code](assets/docs/headerandfootercolorbugcodepink.png)| ![pink header and footer styling](assets/docs/headerandfootercolorbugpink.png)    |
 | A bug was found when additional boxes were added, the bug itself seems to be highlighting in between the tiles, click once and a small area is highlighted but if you click again then multiple areas get highlighted. To try to resolve this bug, I have tried the following `whitespace: nowrap`, `white-space: unset;`, `white-space: normal;` and `white-space: pre-wrap;` | Also Attempted to use this JQuery code ![JQuery code](assets/docs/jquerycode.png), However none have worked so far. | ![highlighting bug](assets/docs/highlightingbug.png)|
 
